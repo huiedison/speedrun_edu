@@ -1,0 +1,217 @@
+{
+  "name": "bizops-ops",
+  "params": {
+    "fn": "operations",
+    "spec": "bizops,chief_of_staff,founders_office_generalist"
+  },
+  "as_of": "2026-11-13T10:48:59.795Z",
+  "sampled": 18,
+  "companies": 16,
+  "usable_description": 18,
+  "median_chars": 6127.5,
+  "min_chars": 1649,
+  "max_chars": 12863,
+  "with_responsibilities_section": 18,
+  "with_requirements_section": 14,
+  "specialty_null": 0,
+  "rows": [
+    {
+      "id": "4aaebda4-53be-424c-8246-cde77ff853bb",
+      "title": "Company Operations Lead",
+      "company": "ElevenLabs",
+      "status": "open",
+      "chars": 6470,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "d4ed3207-53ed-4251-9dbf-f6cae28e76c6",
+      "title": "Executive Assistant",
+      "company": "Kaizen Labs",
+      "status": "open",
+      "chars": 6178,
+      "has_resp_section": true,
+      "has_req_section": false,
+      "specialty": "founder's office generalist",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "5d77b6d4-a90e-969f-5879-a35399a5332b",
+      "title": "Division Operations Senior Associate, Undersea Dominance",
+      "company": "Anduril Industries",
+      "status": "open",
+      "chars": 10825,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "fe8c6406-8396-4496-b4bc-83f14b8c47de",
+      "title": "Operations Generalist",
+      "company": "TypeSafe",
+      "status": "open",
+      "chars": 2627,
+      "has_resp_section": true,
+      "has_req_section": false,
+      "specialty": "bizops",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "208929b4-6c33-95aa-2334-ef920f0196f0",
+      "title": "Division Operations, Senior Associate",
+      "company": "Anduril Industries",
+      "status": "open",
+      "chars": 7779,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "9040d21a-0b46-4a21-b778-02a4e9610647",
+      "title": "Senior Operations Associate",
+      "company": "Headway",
+      "status": "open",
+      "chars": 5945,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "475cae53-4745-4e85-9753-72904c199be3",
+      "title": "Business Operations Analyst (Afternoon Shift)",
+      "company": "SpotOn",
+      "status": "open",
+      "chars": 8696,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "0878198a-6899-4a3c-9558-dedddeac14aa",
+      "title": "Founders Associate Internship - CEO Office (all genders)",
+      "company": "Lio",
+      "status": "open",
+      "chars": 1649,
+      "has_resp_section": true,
+      "has_req_section": false,
+      "specialty": "founder's office generalist",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "4dd745a1-b5b9-4693-b66d-150c84f6e76c",
+      "title": "Head of Business Operations",
+      "company": "Glimpse",
+      "status": "open",
+      "chars": 5626,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "VP"
+    },
+    {
+      "id": "d395a69f-eea7-b820-f3bf-5d2472043a7c",
+      "title": "Chief of Staff, Lyft Urban Solutions",
+      "company": "Lyft",
+      "status": "open",
+      "chars": 7543,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "chief of staff",
+      "seniority_label": null
+    },
+    {
+      "id": "89d3f789-c835-4efc-ac64-a1ba3df184e3",
+      "title": "Chief of Staff, Office of the President",
+      "company": "Ambience Healthcare",
+      "status": "open",
+      "chars": 8477,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "chief of staff",
+      "seniority_label": null
+    },
+    {
+      "id": "b5665525-c2a3-4c6a-a3dd-d0d1f1df01f8",
+      "title": "Executive Assistant to Founders",
+      "company": "Exa",
+      "status": "open",
+      "chars": 3818,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "founder's office generalist",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "eeb46bfa-12f9-46af-80ee-3232a1b6604d",
+      "title": "Strategy & Ops",
+      "company": "Ferry Health",
+      "status": "open",
+      "chars": 3132,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "a8aa0921-38e1-4015-bb95-a08b090e218e",
+      "title": "Chief of Staff, Office of the President",
+      "company": "Replit",
+      "status": "open",
+      "chars": 6077,
+      "has_resp_section": true,
+      "has_req_section": false,
+      "specialty": "chief of staff",
+      "seniority_label": null
+    },
+    {
+      "id": "e6ba0f80-e2a5-4532-9fae-01f0b19ea28f",
+      "title": "Business Operations Generalist",
+      "company": "Specter",
+      "status": "open",
+      "chars": 4119,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "bizops",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "7d268159-48b8-4391-9e1d-8210d1a6d293",
+      "title": "Administrative Assistant, Office of the CEO",
+      "company": "Hadrian",
+      "status": "open",
+      "chars": 8574,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "founder's office generalist",
+      "seniority_label": "mid-level"
+    },
+    {
+      "id": "a0389dc2-77d8-439b-960b-2acb8712991e",
+      "title": "Enterprise Deployment - Chief of Staff",
+      "company": "ElevenLabs",
+      "status": "open",
+      "chars": 4715,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "chief of staff",
+      "seniority_label": null
+    },
+    {
+      "id": "d136fb5e-2a5d-43fc-451e-eada2fd6fab5",
+      "title": "Chief of Staff",
+      "company": "Pindrop",
+      "status": "open",
+      "chars": 12863,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "chief of staff",
+      "seniority_label": null
+    }
+  ]
+}

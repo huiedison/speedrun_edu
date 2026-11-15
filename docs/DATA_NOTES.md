@@ -180,3 +180,202 @@ Report results as a table appended to this file, then apply the flagship decisio
   - A companion listing page exists at `/jobs/founding-engineer`, and `/jobs?sen=founding` is used as the "every founding seat" link. Check whether similar per-title listing pages exist for the flagship before building the exit.
 - The product tour PDF was not readable from the planning chat. Read `docs/reference/` before step A and note anything that changes this file.
 - The Product Engineer posting asks applicants to see what the team has built, share one idea with a link, and say who they are. It states the team builds tools that are useful to job seekers rather than ads, which matches this project's "useful first" principle.
+
+## Probe results (step A, 13 Nov 2026)
+
+Run from Claude Code with `node scripts/probe.ts`, every call tagged `source=role-decoder-edison`. Responses were fetched between 10:40 and 10:51 UTC on 13 Nov 2026. Raw list responses are in `fixtures/probe/`, the extracted numbers in `fixtures/probe/summary.json`. Job detail responses contain description text, so they sit in `fixtures/local/`, which is gitignored. Counts drift; the board read 23,466 here against 23,504 at 08:00 UTC the same day.
+
+"Student door" below means `lvl` in (intern, new_grad). "Seed to B" means `stage=seed,series_a,series_b`.
+
+### What the probes say, in short
+
+1. **The early-stage hypothesis holds, but stage is not the main reason.** Board-wide the student door is 9,681 of 23,466 roles (41.3%). At seed to Series B it is 425 of 3,163 (13.4%, with 201 of those roles carrying no level label). Only 4.4% of student roles sit at seed to Series B; 92.2% sit at growth or public companies and 70.5% at companies with 5,000 or more people.
+2. **The bigger split is by tier.** 9,211 of the 9,681 student roles (95.1%) are in the `market` tier, where 81.3% of all roles are intern or new grad. In the a16z tier the student door is 465 of 11,924 (3.9%); in the speedrun tier 5 of 211 (2.4%). Inside the portfolio the door is about as narrow at every stage: 86 of 2,754 seed to Series B roles (3.1%) at a16z and speedrun tier companies. The 13.4% early-stage figure is itself held up by market-tier companies (339 of their 409 early-stage roles are student roles).
+3. **`fn=strategy` is not BizOps.** 212 roles, of which 167 (78.8%) are intern or new grad, 133 at public companies, 169 in the market tier, and 6 at seed to Series B. It is mostly corporate strategy internships at large companies. Startup BizOps is classified under operations, in the `bizops`, `chief_of_staff` and `founders_office_generalist` specialties.
+4. **Sales does not have the widest door.** 337 of 1,656 (20.4%), the lowest share among the candidates, and 3 student roles at seed to Series B. Its early-stage way in is junior (32 roles), not intern. Founding sales (`fn=sales&founding=1`) is 67 roles with 0 student roles.
+5. **The API rate-limits bursts.** A burst of about 17 calls at 300 ms spacing produced HTTP 429 (Cloudflare error 1015). At 2.5 s spacing, about 170 calls ran with no 429. The app's client needs spacing and shared caching, not parallel fetches at build time.
+6. **`/roles` returns 404.** No roles hub exists at that path. Per-title listing pages return 200 at `/jobs/founding-engineer`, `/jobs/chief-of-staff`, `/jobs/sales`, `/jobs/account-executive`, `/jobs/forward-deployed-engineer` and `/jobs/internships`; `/jobs/bizops`, `/jobs/business-operations`, `/jobs/product-manager` and `/jobs/intern` return 404. Status codes only; page contents were not fetched or parsed.
+
+### Probe 1: per craft
+
+| Craft | Roles | Intern | New grad | Student door | Junior | No level label | Seed to B roles | No stage label | Remote / onsite / hybrid | Bands posted | Founding |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| engineering | 4,795 | 1,341 | 434 | 1,775 (37.0%) | 142 | 66 | 799 (16.7%) | 15 | 424 / 1,221 / 487 | 1,341 | 83 |
+| hardware_manufacturing | 3,941 | 1,452 | 226 | 1,678 (42.6%) | 272 | 414 | 598 (15.2%) | 78 | 31 / 860 / 35 | 527 | 9 |
+| operations | 2,880 | 1,060 | 126 | 1,186 (41.2%) | 225 | 341 | 305 (10.6%) | 27 | 115 / 477 / 79 | 362 | 14 |
+| sales | 1,656 | 256 | 81 | 337 (20.4%) | 274 | 50 | 228 (13.8%) | 33 | 365 / 351 / 221 | 486 | 67 |
+| customer | 895 | 92 | 57 | 149 (16.6%) | 94 | 48 | 147 (16.4%) | 6 | 204 / 215 / 153 | 268 | 19 |
+| finance | 848 | 380 | 30 | 410 (48.3%) | 105 | 33 | 93 (11.0%) | 15 | 58 / 130 / 56 | 131 | 7 |
+| research | 749 | 437 | 46 | 483 (64.5%) | 82 | 29 | 87 (11.6%) | 4 | 32 / 103 / 52 | 64 | 1 |
+| marketing | 740 | 334 | 12 | 346 (46.8%) | 18 | 10 | 133 (18.0%) | 28 | 114 / 144 / 88 | 175 | 7 |
+| people | 660 | 189 | 19 | 208 (31.5%) | 20 | 22 | 88 (13.3%) | 6 | 61 / 148 / 71 | 176 | 8 |
+| other | 534 | 200 | 47 | 247 (46.3%) | 25 | 231 | 31 (5.8%) | 1 | 190 / 21 / 2 | 161 | 1 |
+| data | 534 | 317 | 30 | 347 (65.0%) | 33 | 11 | 40 (7.5%) | 12 | 56 / 34 / 39 | 67 | 8 |
+| product | 472 | 130 | 26 | 156 (33.1%) | 8 | 3 | 72 (15.3%) | 4 | 71 / 98 / 69 | 175 | 9 |
+| legal | 382 | 88 | 2 | 90 (23.6%) | 48 | 12 | 65 (17.0%) | 8 | 51 / 80 / 44 | 111 | 4 |
+| business_development | 376 | 118 | 21 | 139 (37.0%) | 5 | 4 | 70 (18.6%) | 0 | 70 / 67 / 43 | 100 | 7 |
+| design | 338 | 116 | 16 | 132 (39.1%) | 11 | 5 | 61 (18.0%) | 19 | 32 / 94 / 50 | 114 | 13 |
+| strategy | 212 | 142 | 25 | 167 (78.8%) | 4 | 5 | 6 (2.8%) | 4 | 7 / 23 / 13 | 15 | 0 |
+| growth | 53 | 11 | 0 | 11 (20.8%) | 0 | 3 | 24 (45.3%) | 0 | 12 / 21 / 5 | 15 | 1 |
+| executive | 10 | 0 | 0 | 0 (0.0%) | 0 | 3 | 3 (30.0%) | 0 | 2 / 4 / 2 | 1 | 0 |
+
+Board: 23,466 roles, 3,384 with no craft label, 1,506 with no level label, 286 with no stage label, 4,664 with a posted band, 278 founding. Workplace labels: remote 2,095, onsite 4,541, hybrid 1,642.
+
+Specialty vocabulary (`facets.spec`) for the candidate crafts:
+
+- **strategy:** strategy_ops 54, management_consulting 47, market_research_insights 24, corporate_strategy 13, pricing_strategy 11, other 6, competitive_intelligence 2.
+- **operations:** logistics_fulfillment 353, supply_chain 326, procurement_sourcing 258, program_management 224, project_management 153, field_operations 141, marketplace_ops 139, facilities_workplace 128, bizops 73, revops 69, trust_safety_ops 59, operations_leadership 51, other 42, customer_ops 20, finance_ops 17, clinical_ops 16, chief_of_staff 15, launch_expansion_ops 10, founders_office_generalist 8, lab_operations 5, people_ops 2.
+- **sales:** account_executive_enterprise 242, sales_engineering 239, sdr_bdr 160, sales_leadership 102, account_executive_smb 101, account_management 98, strategic_accounts 76, government_public_sector_sales 67, account_executive_mid_market 60, solutions_consulting 22, sales_enablement 18, inside_sales 18, sales_ops_deal_desk 17, other 17, customer_expansion 6, partner_sales 3, international_expansion_sales 2.
+- **product:** ai_ml_pm 35, platform_api_pm 29, technical_pm 21, fintech_pm 19, core_pm 17, growth_pm 15, product_ops 14, product_leadership 14, enterprise_b2b_pm 13, marketplace_pm 11, data_pm 8, hardware_pm 6, consumer_pm 3, founder_pm 2.
+
+`spec` accepts a comma-separated list within one craft (`fn=operations&spec=bizops,chief_of_staff,founders_office_generalist` returned 96, against 73 + 15 + 8).
+
+### Probe 2: where student roles live (9,681 roles)
+
+| Cut | Values |
+| --- | --- |
+| Tier | market 9,211 (95.1%), a16z 465 (4.8%), speedrun 5 (0.1%) |
+| Stage | public 6,750, growth 2,175, series_a 162, series_b 161, seed 102, nonprofit_gov 75, no stage label 256 |
+| Company size | 5000_plus 6,822, 1001_5000 1,110, 201_500 319, 51_200 211, 501_1000 196, 11_50 112, 1_10 32, no size label 879 |
+| Top crafts | engineering 1,775, hardware_manufacturing 1,679, operations 1,186, research 483, finance 410, data 347, marketing 346, sales 337; no craft label 1,819 |
+
+Student door by tier, all stages and at seed to Series B:
+
+| Tier | All roles | Student door | Seed to B roles | Student door at seed to B |
+| --- | --- | --- | --- | --- |
+| market | 11,331 | 9,211 (81.3%) | 409 | 339 (82.9%) |
+| a16z | 11,924 | 465 (3.9%) | 2,544 | 81 (3.2%) |
+| speedrun | 211 | 5 (2.4%) | 210 | 5 (2.4%) |
+| all | 23,466 | 9,681 (41.3%) | 3,163 | 425 (13.4%) |
+
+### Probe 3: student door at seed to Series B, per craft
+
+| Craft | Seed to B roles | Student door | Junior | Tier of the student roles |
+| --- | --- | --- | --- | --- |
+| engineering | 799 | 159 | 23 | market 133, a16z 23, speedrun 3 |
+| operations | 305 | 21 | 18 | market 14, a16z 7 |
+| marketing | 133 | 14 | 3 | market 11, speedrun 2, a16z 1 |
+| business_development | 70 | 7 | 1 | market 5, a16z 2 |
+| product | 72 | 6 | 1 | market 6 |
+| design | 61 | 6 | 1 | market 4, a16z 2 |
+| sales | 228 | 3 | 32 | a16z 2, market 1 |
+| growth | 24 | 3 | 0 | market 2, a16z 1 |
+| strategy | 6 | 3 | 0 | market 3 |
+
+All crafts together: 425, of which engineering 159, hardware_manufacturing 107, research 31, operations 21, data 15, marketing 14, and 35 with no craft label. The lists show classifier noise worth knowing about: SkillBridge (military transition) internships, a research foundation tagged as early stage, and roles such as "Value Engineer" and "Sales Development Representative" tagged intern at one company.
+
+### Probe 4: title archetypes (`q`)
+
+`q` is a fuzzy match with synonym expansion, so totals are upper bounds, not title counts.
+
+| Term | Roles | Student door | Student door at seed to B | Bands posted | Lands in |
+| --- | --- | --- | --- | --- | --- |
+| bizops | 4 | 0 | 0 | 2 | data 2, operations 1, no craft 1 |
+| business operations | 199 | 92 | 5 | 43 | operations 76, business_development 30, data 18, finance 15, people 9, no craft 33 |
+| strategy and operations | 58 | 23 | 0 | 5 | strategy 19, operations 15, product 3, no craft 13 |
+| chief of staff | 10 | 0 | 0 | 6 | operations 10 (none has a level label) |
+| founding gtm | 15 | 1 | 1 | 8 | sales 8, people 2, operations 1, marketing 1, no craft 3 |
+| founding account executive | 6 | 0 | 0 | 1 | sales 6 |
+| forward deployed | 211 | 41 | 7 | 68 | engineering 94, customer 38, product 12, hardware_manufacturing 6, no craft 55 |
+| product engineer | 551 | 107 | 14 | 160 | engineering 222, hardware_manufacturing 143, operations 47, customer 31, product 24, no craft 53 |
+| growth | 288 | 76 | 6 | 97 | growth 49, marketing 39, sales 34, engineering 33, business_development 22, no craft 65 |
+
+Forward Deployed Engineer has enough postings for a page (211 matches, 64 clean bands). "product engineer" is polluted by hardware product engineering roles and would need a tighter definition.
+
+### Probe 5: posted pay bands after cleaning
+
+Query `comp=1&sort=comp`, paged to the end. `comp=1` already excludes roles with no band and non-annual bands, so "dropped" counts only what the cleaning rule removed afterwards. Every drop here was a non-USD currency; none fell outside 20,000 to 1,000,000.
+
+| Definition | Roles | Returned | Kept | Companies | Dropped | p25 | Median | p75 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `fn=strategy` | 212 | 15 | 15 | 9 | 0 | 149,500 | 180,000 | 201,250 |
+| `fn=strategy&spec=strategy_ops` | 54 | 5 | 5 | 2 | 0 | below floor | | |
+| `fn=operations&spec=bizops` | 73 | 12 | 12 | 11 | 0 | below floor | | |
+| `fn=operations&spec=bizops,chief_of_staff,founders_office_generalist` | 96 | 27 | 26 | 23 | 1 | 133,125 | 150,613 | 203,625 |
+| BizOps composite (the two rows above with strategy_ops) | 150 | 32 | 31 | 24 | 1 | 133,750 | 157,500 | 202,500 |
+| `fn=sales` | 1,656 | 486 | 432 | 77 | 54 | 160,000 | 197,500 | 270,000 |
+| `fn=sales&founding=1` | 67 | 24 | 18 | 10 | 6 | 208,125 | 237,500 | 318,263 |
+| `fn=product` | 472 | 175 | 173 | 66 | 2 | 200,250 | 226,800 | 261,000 |
+| `fn=operations` | 2,880 | 362 | 348 | 70 | 14 | 126,375 | 155,000 | 190,200 |
+| `fn=design` | 338 | 114 | 111 | 49 | 3 | 181,250 | 202,500 | 226,250 |
+| `fn=business_development` | 376 | 100 | 98 | 45 | 2 | 148,750 | 198,000 | 250,000 |
+| `q=forward deployed` | 211 | 68 | 64 | 36 | 4 | 170,000 | 200,000 | 242,500 |
+| `q=product engineer` | 551 | 160 | 160 | 63 | 0 | 175,000 | 210,478 | 251,125 |
+| `q=business operations` | 199 | 43 | 43 | 20 | 0 | 152,006 | 180,500 | 206,250 |
+
+These are probe figures for choosing the flagship. Page numbers will be recomputed live by `lib/stats`.
+
+### Probe 6: descriptions
+
+Sampled newest first after deduping by company and normalised title, at most two postings per company.
+
+| Sample | Postings | Companies | Usable description (500+ chars) | Median length | Has a responsibilities section | `labels.specialty` null |
+| --- | --- | --- | --- | --- | --- | --- |
+| BizOps, operations part | 18 | 16 | 18 | 6,128 | 18 | 0 |
+| BizOps, strategy_ops part | 12 | 9 | 11 | 6,572 | 11 | 0 |
+| Sales (`fn=sales`) | 28 | 22 | 28 | 5,647 | 28 | 3 |
+
+One open posting returned a null `description_text`, so "null when closed" is not the only case. The section check is a keyword match and over-counts; in two postings the keyword hit landed in a benefits paragraph.
+
+Trial clustering on the 30 BizOps postings, read by eye: the operations part clusters cleanly around a handful of themes (owning cross-functional projects nobody else owns, building planning and operating cadence, financial and data analysis for decisions, vendor and spend management, working directly with founders or an executive, automating internal work with AI). Two sources of noise:
+
+- `founders_office_generalist` includes executive and administrative assistant roles (3 of the 4 sampled founders-office postings), and the first page of the operations query also lists two "Executive Business Partner" titles. Their duties (calendars, travel, events) would form their own cluster.
+- The `strategy_ops` part is mostly large-company internships whose descriptions are campus-programme boilerplate or a different job entirely (one is a medical affairs co-op). TikTok alone has 25 of the first 100 composite postings.
+
+Extraction for a BizOps page should therefore sample from the operations part and from named strategy and operations titles, and report the company spread.
+
+### Probe 7: speedrun scope (`scope=speedrun`)
+
+211 roles. Level: mid 110, senior 50, staff_principal 25, intern 5, lead_manager 3, vp 2, director 1, founder 1, with 14 roles without a level label. Stage: seed 119, series_a 90, series_b 1, 1 without a stage label. Crafts: engineering 101, marketing 15, customer 14, design 13, product 9, sales 6, operations 6, and 20 with no craft label. 53 post a band, 41 are founding roles. Remote 43, onsite 110, hybrid 36.
+
+The student door at speedrun companies is 5 of 211 (2.4%), which is in line with the unverified reading from the product tour screenshot (intern 3 of 208 on 10 Nov). Too thin for stats; usable as a highlighted list.
+
+### Flagship decision rule (PLAN section 5)
+
+Rule: first of BizOps, Sales, Product with at least 100 roles, at least 15 clean annual USD bands, and at least 10 student-door roles board-wide.
+
+| Candidate | Definition | Roles | Clean bands | Student door, board | Student door, seed to B | Junior, seed to B | Passes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BizOps as planned | `fn=strategy` | 212 | 15 | 167 | 3 | 0 | on paper, with no margin on bands, and it is the wrong population |
+| BizOps composite | `fn=strategy&spec=strategy_ops` plus `fn=operations&spec=bizops,chief_of_staff,founders_office_generalist` | 150 | 31 | 73 | 5 | 5 board-wide | yes |
+| BizOps, operations part only | `fn=operations&spec=bizops,chief_of_staff,founders_office_generalist` | 96 | 26 | 29 | 4 | 5 board-wide | no (96 roles) |
+| Sales | `fn=sales` | 1,656 | 432 | 337 | 3 | 32 | yes |
+| Founding sales | `fn=sales&founding=1` | 67 | 18 | 0 | 0 | not probed | no |
+| Product | `fn=product` | 472 | 173 | 156 | 6 | 1 | yes |
+
+BizOps composite detail: level intern 66, mid 33, senior 18, new_grad 7, junior 5, staff_principal 2, director 2, vp 1, with 16 roles without a level label. Stage public 64, growth 60, series_a 14, seed 7, series_b 4, 1 without a stage label. Tier market 74, a16z 73, speedrun 3. Workplace remote 11, onsite 36, hybrid 9 (56 labeled, 94 not). Its five student roles at seed to Series B: Founders Associate Internship, CEO Office (Lio); Founders Associate Intern (Clera); Strategic Operations Intern (Clera); Business Operations Internship, Summer 2027 (Perpay); GTM Intern, Strategy & Operations (Simular).
+
+The rule picks **BizOps / Strategy & Ops with the composite definition**, pending Edison's confirmation at Checkpoint A. The composite needs two API queries merged (a posting has one craft, so the two parts cannot overlap), which the single-`fn` definition shape in PLAN section 7 does not yet allow.
+
+Thirty sample titles from the composite (operations part first, then strategy_ops), for the spot check:
+
+1. Company Operations Lead, ElevenLabs
+2. Executive Assistant, Kaizen Labs
+3. Division Operations Senior Associate, Undersea Dominance, Anduril Industries
+4. Operations Generalist, TypeSafe
+5. Division Operations Lead, Group 3, Anduril Industries
+6. Senior Operations Associate, Headway
+7. Operations Analyst, Hardware Platform Operations, Anduril Industries
+8. Business Operations Analyst (Afternoon Shift), SpotOn
+9. Founders Associate Internship, CEO Office, Lio
+10. Head of Business Operations, Glimpse
+11. Chief of Staff, Lyft Urban Solutions, Lyft
+12. Chief of Staff, Office of the President, Ambience Healthcare
+13. Executive Assistant to Founders, Exa
+14. Strategy & Ops, Ferry Health
+15. Chief of Staff, Office of the President, Replit
+16. Senior Business Process Engineer, Anduril Industries
+17. Business Operations Generalist, Specter
+18. Administrative Assistant, Office of the CEO, Hadrian
+19. Chief of Staff, Pindrop
+20. Director, Business Operations, Hebbia AI
+21. Senior Staff, Workplace AI, Shield AI
+22. Product Strategy and Operations, Senior Manager, New Verticals, EliseAI
+23. Lead, Enterprise Strategy and Operations, Shield AI
+24. Commercial Marketplace Strategy and Operations Intern (Summer 2027), Zipline
+25. Senior Associate, Payer Strategy & Ops, Headway
+26. Summer 2027 Internship: Analyst, Strategy & Operations, QTS
+27. Treasury & Payment Solutions Strategy Intern, Summer 2027, Bank of Montreal
+28. Medical Affairs Strategy & Execution, Oncology Co-op, Johnson & Johnson
+29. Strategy & Planning Analyst Graduate, Marsh
+30. Strategy & Operations Internship Summer 2027, Enova

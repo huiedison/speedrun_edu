@@ -1,0 +1,151 @@
+{
+  "name": "bizops-strategy",
+  "params": {
+    "fn": "strategy",
+    "spec": "strategy_ops"
+  },
+  "as_of": "2026-11-13T10:49:34.368Z",
+  "sampled": 12,
+  "companies": 9,
+  "usable_description": 11,
+  "median_chars": 6572,
+  "min_chars": 2918,
+  "max_chars": 9103,
+  "with_responsibilities_section": 11,
+  "with_requirements_section": 11,
+  "specialty_null": 0,
+  "rows": [
+    {
+      "id": "f08a76d4-7ff9-4a81-88bd-4cf699ddf95c",
+      "title": "Senior Staff, Workplace AI (R5448)",
+      "company": "Shield AI",
+      "status": "open",
+      "chars": 4887,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "staff or principal"
+    },
+    {
+      "id": "b6cc0e6c-9476-4b4e-8d4f-68e0255e05d4",
+      "title": "Product Strategy and Operations, Senior Manager - New Verticals | Housing",
+      "company": "EliseAI",
+      "status": "open",
+      "chars": 6777,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "a636a60d-e13f-4faf-b0fc-8b1589e3f005",
+      "title": "Lead, Enterprise Strategy and Operations (R6096)",
+      "company": "Shield AI",
+      "status": "open",
+      "chars": 4014,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "74a99bf1-98f9-ea85-d055-34c989c7b078",
+      "title": "Commercial Marketplace Strategy and Operations Intern (Summer 2027)",
+      "company": "Zipline",
+      "status": "open",
+      "chars": 6572,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "badbaf66-118e-a7c6-17e1-eeae949640f7",
+      "title": "Commercial Strategy & Operations Intern (Summer 2027)",
+      "company": "Zipline",
+      "status": "open",
+      "chars": 6729,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "3fa4cb70-1839-4c63-824e-6e1ee96e6139",
+      "title": "Senior Associate, Payer Strategy & Ops",
+      "company": "Headway",
+      "status": "open",
+      "chars": 4902,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "senior"
+    },
+    {
+      "id": "977333ce-4ca0-8f79-cdd3-d0eee92ad673",
+      "title": "Summer 2027 Internship: Analyst, Strategy & Operations",
+      "company": "QTS",
+      "status": "open",
+      "chars": 0,
+      "has_resp_section": false,
+      "has_req_section": false,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "e3588387-1f9c-3a5f-1214-cca6117fc626",
+      "title": "Treasury & Payment Solutions Strategy Intern, Summer 2027 (10 weeks)",
+      "company": "Bank of Montreal",
+      "status": "open",
+      "chars": 8359,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "4cc9d77f-5c47-b165-9e15-ed6d4890166a",
+      "title": "Treasury & Payment Solutions Strategy Internship, Summer 2027 (4 months)",
+      "company": "Bank of Montreal",
+      "status": "open",
+      "chars": 7790,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "234ac4fd-4957-d0a2-b529-1c5f229aec5d",
+      "title": "Medical Affairs Strategy & Execution – Oncology/Bladder Cancer Co-op",
+      "company": "Johnson & Johnson",
+      "status": "open",
+      "chars": 9103,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "a856ebf3-bb51-b340-86e7-da493f29d302",
+      "title": "Summer Intern - VD eCommerce (Direct Value Proposition & Partnerships)",
+      "company": "Samsung",
+      "status": "open",
+      "chars": 4238,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    },
+    {
+      "id": "feef11e5-6f6f-11e4-1d1d-603e25c83db4",
+      "title": "FMCG Strategy Project Intern (TikTok Shop by Tokopedia) - 2027 Start",
+      "company": "TikTok",
+      "status": "open",
+      "chars": 2918,
+      "has_resp_section": true,
+      "has_req_section": true,
+      "specialty": "strategy and ops",
+      "seniority_label": "intern"
+    }
+  ]
+}

@@ -1,0 +1,5047 @@
+{
+  "base": "https://speedrun-talent-network.com/api/v1",
+  "source": "role-decoder-edison",
+  "p1": {
+    "engineering": {
+      "total": 4795,
+      "lvl": {
+        "intern": 1341,
+        "mid": 1095,
+        "senior": 955,
+        "staff_principal": 536,
+        "new_grad": 434,
+        "lead_manager": 185,
+        "junior": 142,
+        "director": 27,
+        "vp": 13,
+        "c_level": 1
+      },
+      "lvlUnspecified": 66,
+      "student": 1775,
+      "junior": 142,
+      "stage": {
+        "growth": 2532,
+        "public": 1444,
+        "series_a": 382,
+        "seed": 247,
+        "series_b": 170,
+        "nonprofit_gov": 5
+      },
+      "stageUnspecified": 15,
+      "early": 799,
+      "workplace": {
+        "remote": 424,
+        "onsite": 1221,
+        "hybrid": 487
+      },
+      "spec": [
+        {
+          "v": "fullstack",
+          "n": 270
+        },
+        {
+          "v": "llm_application_agents",
+          "n": 241
+        },
+        {
+          "v": "backend",
+          "n": 198
+        },
+        {
+          "v": "qa_test_automation",
+          "n": 193
+        },
+        {
+          "v": "embedded_firmware",
+          "n": 191
+        },
+        {
+          "v": "ml_engineering",
+          "n": 126
+        },
+        {
+          "v": "infra_platform",
+          "n": 126
+        },
+        {
+          "v": "security_appsec",
+          "n": 111
+        },
+        {
+          "v": "sre_reliability",
+          "n": 105
+        },
+        {
+          "v": "solutions_forward_deployed",
+          "n": 99
+        },
+        {
+          "v": "distributed_systems",
+          "n": 94
+        },
+        {
+          "v": "frontend",
+          "n": 92
+        },
+        {
+          "v": "generalist",
+          "n": 87
+        },
+        {
+          "v": "search_ranking_recsys",
+          "n": 82
+        },
+        {
+          "v": "hardware_software_integration",
+          "n": 82
+        },
+        {
+          "v": "engineering_management",
+          "n": 82
+        },
+        {
+          "v": "simulation_engineering",
+          "n": 68
+        },
+        {
+          "v": "security_infra_detection",
+          "n": 68
+        },
+        {
+          "v": "robotics_controls_planning",
+          "n": 66
+        },
+        {
+          "v": "devops_cicd",
+          "n": 54
+        },
+        {
+          "v": "data_engineering",
+          "n": 51
+        },
+        {
+          "v": "ml_infra_training_systems",
+          "n": 50
+        },
+        {
+          "v": "networking",
+          "n": 48
+        },
+        {
+          "v": "developer_tooling_build",
+          "n": 46
+        },
+        {
+          "v": "data_platform",
+          "n": 45
+        },
+        {
+          "v": "robotics_software",
+          "n": 38
+        },
+        {
+          "v": "autonomy_av_stack",
+          "n": 36
+        },
+        {
+          "v": "quant_developer_low_latency",
+          "n": 35
+        },
+        {
+          "v": "graphics_game_engine",
+          "n": 29
+        },
+        {
+          "v": "identity_auth",
+          "n": 28
+        },
+        {
+          "v": "mobile_android",
+          "n": 26
+        },
+        {
+          "v": "computer_vision_engineering",
+          "n": 25
+        },
+        {
+          "v": "llm_inference_serving",
+          "n": 24
+        },
+        {
+          "v": "it_corporate_engineering",
+          "n": 23
+        },
+        {
+          "v": "robotics_perception",
+          "n": 21
+        },
+        {
+          "v": "compilers_pl",
+          "n": 21
+        },
+        {
+          "v": "mlops_platform",
+          "n": 19
+        },
+        {
+          "v": "trust_safety_fraud",
+          "n": 18
+        },
+        {
+          "v": "security_offensive_redteam",
+          "n": 18
+        },
+        {
+          "v": "gpu_kernels_cuda",
+          "n": 18
+        },
+        {
+          "v": "payments_engineering",
+          "n": 16
+        },
+        {
+          "v": "architect_principal",
+          "n": 16
+        },
+        {
+          "v": "privacy_engineering",
+          "n": 13
+        },
+        {
+          "v": "mobile_ios",
+          "n": 13
+        },
+        {
+          "v": "mobile_cross_platform",
+          "n": 13
+        },
+        {
+          "v": "databases_internals",
+          "n": 13
+        },
+        {
+          "v": "hpc_performance",
+          "n": 12
+        },
+        {
+          "v": "api_platform",
+          "n": 12
+        },
+        {
+          "v": "release_engineering",
+          "n": 11
+        },
+        {
+          "v": "fpga_asic_design",
+          "n": 11
+        },
+        {
+          "v": "salesforce_erp_developer",
+          "n": 10
+        },
+        {
+          "v": "evals_tooling",
+          "n": 10
+        },
+        {
+          "v": "integrations_erp_crm",
+          "n": 9
+        },
+        {
+          "v": "gtm_engineering",
+          "n": 9
+        },
+        {
+          "v": "growth_engineering",
+          "n": 9
+        },
+        {
+          "v": "observability_tooling",
+          "n": 8
+        },
+        {
+          "v": "rl_environments_engineering",
+          "n": 6
+        },
+        {
+          "v": "other",
+          "n": 6
+        },
+        {
+          "v": "kernel_os",
+          "n": 6
+        },
+        {
+          "v": "cloud_architecture",
+          "n": 6
+        },
+        {
+          "v": "speech_voice_engineering",
+          "n": 5
+        },
+        {
+          "v": "desktop_native_windows",
+          "n": 5
+        },
+        {
+          "v": "video_streaming_codecs",
+          "n": 4
+        },
+        {
+          "v": "no_code_automation",
+          "n": 4
+        },
+        {
+          "v": "fintech_ledger_core_banking",
+          "n": 4
+        },
+        {
+          "v": "webgl_3d_web",
+          "n": 3
+        },
+        {
+          "v": "streaming_realtime",
+          "n": 3
+        },
+        {
+          "v": "storage_filesystems",
+          "n": 3
+        },
+        {
+          "v": "multiplayer_netcode",
+          "n": 3
+        },
+        {
+          "v": "audio_dsp",
+          "n": 3
+        },
+        {
+          "v": "smart_contracts_dapps",
+          "n": 2
+        },
+        {
+          "v": "generative_media_engineering",
+          "n": 2
+        },
+        {
+          "v": "blockchain_protocol",
+          "n": 2
+        },
+        {
+          "v": "technical_writing_docs",
+          "n": 1
+        },
+        {
+          "v": "geospatial_gis",
+          "n": 1
+        },
+        {
+          "v": "gameplay_engineering",
+          "n": 1
+        },
+        {
+          "v": "desktop_native_mac",
+          "n": 1
+        },
+        {
+          "v": "desktop_electron",
+          "n": 1
+        },
+        {
+          "v": "cryptography",
+          "n": 1
+        },
+        {
+          "v": "ar_vr_spatial",
+          "n": 1
+        }
+      ],
+      "compAvailable": 1341,
+      "founding": 83,
+      "portfolio": {
+        "a16z": 2919,
+        "market": 1775,
+        "speedrun": 101
+      }
+    },
+    "research": {
+      "total": 749,
+      "lvl": {
+        "intern": 437,
+        "mid": 101,
+        "junior": 82,
+        "new_grad": 46,
+        "senior": 25,
+        "staff_principal": 24,
+        "vp": 2,
+        "director": 2,
+        "lead_manager": 1
+      },
+      "lvlUnspecified": 29,
+      "student": 483,
+      "junior": 82,
+      "stage": {
+        "public": 358,
+        "growth": 279,
+        "series_a": 47,
+        "seed": 23,
+        "nonprofit_gov": 21,
+        "series_b": 17
+      },
+      "stageUnspecified": 4,
+      "early": 87,
+      "workplace": {
+        "remote": 32,
+        "onsite": 103,
+        "hybrid": 52
+      },
+      "spec": [
+        {
+          "v": "other",
+          "n": 102
+        },
+        {
+          "v": "chemistry_materials",
+          "n": 74
+        },
+        {
+          "v": "quant_research_finance",
+          "n": 45
+        },
+        {
+          "v": "ml_research_general",
+          "n": 35
+        },
+        {
+          "v": "robotics_research",
+          "n": 30
+        },
+        {
+          "v": "reinforcement_learning",
+          "n": 30
+        },
+        {
+          "v": "computer_vision_research",
+          "n": 29
+        },
+        {
+          "v": "embodied_ai_world_models",
+          "n": 23
+        },
+        {
+          "v": "ml_systems_research",
+          "n": 19
+        },
+        {
+          "v": "generative_media_research",
+          "n": 18
+        },
+        {
+          "v": "nlp_research",
+          "n": 16
+        },
+        {
+          "v": "multimodal_vision_language",
+          "n": 16
+        },
+        {
+          "v": "climate_earth_science",
+          "n": 15
+        },
+        {
+          "v": "evals_benchmarks",
+          "n": 14
+        },
+        {
+          "v": "physics",
+          "n": 13
+        },
+        {
+          "v": "speech_audio_research",
+          "n": 12
+        },
+        {
+          "v": "economics",
+          "n": 12
+        },
+        {
+          "v": "post_training_alignment",
+          "n": 8
+        },
+        {
+          "v": "hci_research",
+          "n": 7
+        },
+        {
+          "v": "drug_discovery_ai",
+          "n": 7
+        },
+        {
+          "v": "neuroscience",
+          "n": 6
+        },
+        {
+          "v": "comp_bio_bioinformatics",
+          "n": 6
+        },
+        {
+          "v": "genomics",
+          "n": 5
+        },
+        {
+          "v": "ai_safety_interpretability",
+          "n": 5
+        },
+        {
+          "v": "operations_research",
+          "n": 4
+        },
+        {
+          "v": "llm_pretraining",
+          "n": 4
+        },
+        {
+          "v": "education_research",
+          "n": 3
+        },
+        {
+          "v": "causal_inference_statistics",
+          "n": 3
+        },
+        {
+          "v": "social_science_behavioral",
+          "n": 1
+        }
+      ],
+      "compAvailable": 64,
+      "founding": 1,
+      "portfolio": {
+        "market": 573,
+        "a16z": 173,
+        "speedrun": 3
+      }
+    },
+    "product": {
+      "total": 472,
+      "lvl": {
+        "intern": 130,
+        "mid": 120,
+        "senior": 107,
+        "staff_principal": 57,
+        "new_grad": 26,
+        "lead_manager": 9,
+        "junior": 8,
+        "director": 7,
+        "vp": 5
+      },
+      "lvlUnspecified": 3,
+      "student": 156,
+      "junior": 8,
+      "stage": {
+        "growth": 234,
+        "public": 162,
+        "series_a": 29,
+        "seed": 22,
+        "series_b": 21
+      },
+      "stageUnspecified": 4,
+      "early": 72,
+      "workplace": {
+        "remote": 71,
+        "onsite": 98,
+        "hybrid": 69
+      },
+      "spec": [
+        {
+          "v": "ai_ml_pm",
+          "n": 35
+        },
+        {
+          "v": "platform_api_pm",
+          "n": 29
+        },
+        {
+          "v": "technical_pm",
+          "n": 21
+        },
+        {
+          "v": "fintech_pm",
+          "n": 19
+        },
+        {
+          "v": "core_pm",
+          "n": 17
+        },
+        {
+          "v": "growth_pm",
+          "n": 15
+        },
+        {
+          "v": "product_ops",
+          "n": 14
+        },
+        {
+          "v": "product_leadership",
+          "n": 14
+        },
+        {
+          "v": "enterprise_b2b_pm",
+          "n": 13
+        },
+        {
+          "v": "marketplace_pm",
+          "n": 11
+        },
+        {
+          "v": "data_pm",
+          "n": 8
+        },
+        {
+          "v": "hardware_pm",
+          "n": 6
+        },
+        {
+          "v": "consumer_pm",
+          "n": 3
+        },
+        {
+          "v": "founder_pm",
+          "n": 2
+        }
+      ],
+      "compAvailable": 175,
+      "founding": 9,
+      "portfolio": {
+        "a16z": 299,
+        "market": 164,
+        "speedrun": 9
+      }
+    },
+    "design": {
+      "total": 338,
+      "lvl": {
+        "intern": 116,
+        "mid": 83,
+        "senior": 61,
+        "staff_principal": 28,
+        "new_grad": 16,
+        "junior": 11,
+        "lead_manager": 10,
+        "director": 5,
+        "vp": 3
+      },
+      "lvlUnspecified": 5,
+      "student": 132,
+      "junior": 11,
+      "stage": {
+        "growth": 170,
+        "public": 88,
+        "series_a": 31,
+        "seed": 19,
+        "series_b": 11
+      },
+      "stageUnspecified": 19,
+      "early": 61,
+      "workplace": {
+        "remote": 32,
+        "onsite": 94,
+        "hybrid": 50
+      },
+      "spec": [
+        {
+          "v": "product_design",
+          "n": 124
+        },
+        {
+          "v": "graphic_design",
+          "n": 27
+        },
+        {
+          "v": "industrial_design",
+          "n": 24
+        },
+        {
+          "v": "brand_identity",
+          "n": 22
+        },
+        {
+          "v": "ux_design",
+          "n": 17
+        },
+        {
+          "v": "design_systems",
+          "n": 15
+        },
+        {
+          "v": "ux_research",
+          "n": 14
+        },
+        {
+          "v": "ux_writing_content_design",
+          "n": 13
+        },
+        {
+          "v": "other",
+          "n": 13
+        },
+        {
+          "v": "motion_design",
+          "n": 11
+        },
+        {
+          "v": "3d_art_modeling",
+          "n": 4
+        },
+        {
+          "v": "game_design",
+          "n": 3
+        },
+        {
+          "v": "video_creative_production",
+          "n": 2
+        },
+        {
+          "v": "ui_visual_design",
+          "n": 2
+        },
+        {
+          "v": "illustration",
+          "n": 2
+        },
+        {
+          "v": "art_direction",
+          "n": 2
+        },
+        {
+          "v": "design_ops",
+          "n": 1
+        },
+        {
+          "v": "creative_direction",
+          "n": 1
+        },
+        {
+          "v": "animation",
+          "n": 1
+        }
+      ],
+      "compAvailable": 114,
+      "founding": 13,
+      "portfolio": {
+        "a16z": 195,
+        "market": 130,
+        "speedrun": 13
+      }
+    },
+    "sales": {
+      "total": 1656,
+      "lvl": {
+        "mid": 388,
+        "senior": 367,
+        "junior": 274,
+        "intern": 256,
+        "director": 95,
+        "new_grad": 81,
+        "lead_manager": 79,
+        "vp": 38,
+        "staff_principal": 27,
+        "c_level": 1
+      },
+      "lvlUnspecified": 50,
+      "student": 337,
+      "junior": 274,
+      "stage": {
+        "growth": 956,
+        "public": 439,
+        "series_a": 129,
+        "series_b": 68,
+        "seed": 31
+      },
+      "stageUnspecified": 33,
+      "early": 228,
+      "workplace": {
+        "remote": 365,
+        "onsite": 351,
+        "hybrid": 221
+      },
+      "spec": [
+        {
+          "v": "account_executive_enterprise",
+          "n": 242
+        },
+        {
+          "v": "sales_engineering",
+          "n": 239
+        },
+        {
+          "v": "sdr_bdr",
+          "n": 160
+        },
+        {
+          "v": "sales_leadership",
+          "n": 102
+        },
+        {
+          "v": "account_executive_smb",
+          "n": 101
+        },
+        {
+          "v": "account_management",
+          "n": 98
+        },
+        {
+          "v": "strategic_accounts",
+          "n": 76
+        },
+        {
+          "v": "government_public_sector_sales",
+          "n": 67
+        },
+        {
+          "v": "account_executive_mid_market",
+          "n": 60
+        },
+        {
+          "v": "solutions_consulting",
+          "n": 22
+        },
+        {
+          "v": "sales_enablement",
+          "n": 18
+        },
+        {
+          "v": "inside_sales",
+          "n": 18
+        },
+        {
+          "v": "sales_ops_deal_desk",
+          "n": 17
+        },
+        {
+          "v": "other",
+          "n": 17
+        },
+        {
+          "v": "customer_expansion",
+          "n": 6
+        },
+        {
+          "v": "partner_sales",
+          "n": 3
+        },
+        {
+          "v": "international_expansion_sales",
+          "n": 2
+        }
+      ],
+      "compAvailable": 486,
+      "founding": 67,
+      "portfolio": {
+        "a16z": 1154,
+        "market": 496,
+        "speedrun": 6
+      }
+    },
+    "marketing": {
+      "total": 740,
+      "lvl": {
+        "intern": 334,
+        "mid": 182,
+        "senior": 98,
+        "vp": 36,
+        "director": 32,
+        "junior": 18,
+        "new_grad": 12,
+        "lead_manager": 9,
+        "staff_principal": 8,
+        "c_level": 1
+      },
+      "lvlUnspecified": 10,
+      "student": 346,
+      "junior": 18,
+      "stage": {
+        "growth": 309,
+        "public": 265,
+        "series_a": 60,
+        "seed": 44,
+        "series_b": 29,
+        "nonprofit_gov": 5
+      },
+      "stageUnspecified": 28,
+      "early": 133,
+      "workplace": {
+        "remote": 114,
+        "onsite": 144,
+        "hybrid": 88
+      },
+      "spec": [
+        {
+          "v": "product_marketing",
+          "n": 118
+        },
+        {
+          "v": "events_field_marketing",
+          "n": 75
+        },
+        {
+          "v": "comms_pr",
+          "n": 59
+        },
+        {
+          "v": "social_media",
+          "n": 36
+        },
+        {
+          "v": "content_marketing",
+          "n": 36
+        },
+        {
+          "v": "performance_paid_media",
+          "n": 33
+        },
+        {
+          "v": "marketing_ops_analytics",
+          "n": 30
+        },
+        {
+          "v": "brand_marketing",
+          "n": 30
+        },
+        {
+          "v": "video_production",
+          "n": 27
+        },
+        {
+          "v": "other",
+          "n": 22
+        },
+        {
+          "v": "demand_generation",
+          "n": 19
+        },
+        {
+          "v": "marketing_leadership",
+          "n": 14
+        },
+        {
+          "v": "community",
+          "n": 13
+        },
+        {
+          "v": "creator_ugc_influencer",
+          "n": 9
+        },
+        {
+          "v": "growth_marketing",
+          "n": 8
+        },
+        {
+          "v": "developer_marketing",
+          "n": 8
+        },
+        {
+          "v": "abm_enterprise_marketing",
+          "n": 8
+        },
+        {
+          "v": "lifecycle_email_crm",
+          "n": 7
+        },
+        {
+          "v": "seo_sem",
+          "n": 6
+        },
+        {
+          "v": "copywriting",
+          "n": 6
+        },
+        {
+          "v": "brand_strategy",
+          "n": 2
+        },
+        {
+          "v": "affiliate_partnerships",
+          "n": 1
+        }
+      ],
+      "compAvailable": 175,
+      "founding": 7,
+      "portfolio": {
+        "a16z": 370,
+        "market": 355,
+        "speedrun": 15
+      }
+    },
+    "operations": {
+      "total": 2880,
+      "lvl": {
+        "intern": 1060,
+        "mid": 511,
+        "senior": 273,
+        "junior": 225,
+        "lead_manager": 177,
+        "new_grad": 126,
+        "director": 64,
+        "staff_principal": 62,
+        "vp": 41
+      },
+      "lvlUnspecified": 341,
+      "student": 1186,
+      "junior": 225,
+      "stage": {
+        "public": 1287,
+        "growth": 1241,
+        "series_a": 184,
+        "series_b": 82,
+        "seed": 39,
+        "nonprofit_gov": 20
+      },
+      "stageUnspecified": 27,
+      "early": 305,
+      "workplace": {
+        "remote": 115,
+        "onsite": 477,
+        "hybrid": 79
+      },
+      "spec": [
+        {
+          "v": "logistics_fulfillment",
+          "n": 353
+        },
+        {
+          "v": "supply_chain",
+          "n": 326
+        },
+        {
+          "v": "procurement_sourcing",
+          "n": 258
+        },
+        {
+          "v": "program_management",
+          "n": 224
+        },
+        {
+          "v": "project_management",
+          "n": 153
+        },
+        {
+          "v": "field_operations",
+          "n": 141
+        },
+        {
+          "v": "marketplace_ops",
+          "n": 139
+        },
+        {
+          "v": "facilities_workplace",
+          "n": 128
+        },
+        {
+          "v": "bizops",
+          "n": 73
+        },
+        {
+          "v": "revops",
+          "n": 69
+        },
+        {
+          "v": "trust_safety_ops",
+          "n": 59
+        },
+        {
+          "v": "operations_leadership",
+          "n": 51
+        },
+        {
+          "v": "other",
+          "n": 42
+        },
+        {
+          "v": "customer_ops",
+          "n": 20
+        },
+        {
+          "v": "finance_ops",
+          "n": 17
+        },
+        {
+          "v": "clinical_ops",
+          "n": 16
+        },
+        {
+          "v": "chief_of_staff",
+          "n": 15
+        },
+        {
+          "v": "launch_expansion_ops",
+          "n": 10
+        },
+        {
+          "v": "founders_office_generalist",
+          "n": 8
+        },
+        {
+          "v": "lab_operations",
+          "n": 5
+        },
+        {
+          "v": "people_ops",
+          "n": 2
+        }
+      ],
+      "compAvailable": 362,
+      "founding": 14,
+      "portfolio": {
+        "market": 1560,
+        "a16z": 1314,
+        "speedrun": 6
+      }
+    },
+    "other": {
+      "total": 534,
+      "lvl": {
+        "intern": 200,
+        "new_grad": 47,
+        "mid": 28,
+        "junior": 25,
+        "senior": 2,
+        "director": 1
+      },
+      "lvlUnspecified": 231,
+      "student": 247,
+      "junior": 25,
+      "stage": {
+        "growth": 286,
+        "public": 166,
+        "nonprofit_gov": 50,
+        "series_a": 16,
+        "seed": 10,
+        "series_b": 5
+      },
+      "stageUnspecified": 1,
+      "early": 31,
+      "workplace": {
+        "remote": 190,
+        "onsite": 21,
+        "hybrid": 2
+      },
+      "spec": [],
+      "compAvailable": 161,
+      "founding": 1,
+      "portfolio": {
+        "market": 304,
+        "a16z": 226,
+        "speedrun": 4
+      }
+    },
+    "data": {
+      "total": 534,
+      "lvl": {
+        "intern": 317,
+        "senior": 63,
+        "mid": 51,
+        "junior": 33,
+        "new_grad": 30,
+        "staff_principal": 19,
+        "lead_manager": 5,
+        "director": 5
+      },
+      "lvlUnspecified": 11,
+      "student": 347,
+      "junior": 33,
+      "stage": {
+        "public": 297,
+        "growth": 185,
+        "series_a": 19,
+        "series_b": 13,
+        "seed": 8
+      },
+      "stageUnspecified": 12,
+      "early": 40,
+      "workplace": {
+        "remote": 56,
+        "hybrid": 39,
+        "onsite": 34
+      },
+      "spec": [
+        {
+          "v": "data_science",
+          "n": 150
+        },
+        {
+          "v": "bi_reporting",
+          "n": 97
+        },
+        {
+          "v": "analytics_engineering",
+          "n": 62
+        },
+        {
+          "v": "analytics_marketing",
+          "n": 23
+        },
+        {
+          "v": "data_labeling_ops",
+          "n": 19
+        },
+        {
+          "v": "data_governance_quality",
+          "n": 15
+        },
+        {
+          "v": "other",
+          "n": 6
+        },
+        {
+          "v": "decision_science",
+          "n": 5
+        },
+        {
+          "v": "applied_statistics",
+          "n": 5
+        },
+        {
+          "v": "geospatial_analytics",
+          "n": 4
+        },
+        {
+          "v": "sports_analytics",
+          "n": 2
+        },
+        {
+          "v": "analytics_product",
+          "n": 1
+        }
+      ],
+      "compAvailable": 67,
+      "founding": 8,
+      "portfolio": {
+        "market": 373,
+        "a16z": 158,
+        "speedrun": 3
+      }
+    },
+    "growth": {
+      "total": 53,
+      "lvl": {
+        "mid": 26,
+        "intern": 11,
+        "senior": 10,
+        "staff_principal": 2,
+        "lead_manager": 1
+      },
+      "lvlUnspecified": 3,
+      "student": 11,
+      "junior": 0,
+      "stage": {
+        "growth": 19,
+        "series_a": 13,
+        "public": 10,
+        "seed": 7,
+        "series_b": 4
+      },
+      "stageUnspecified": 0,
+      "early": 24,
+      "workplace": {
+        "remote": 12,
+        "onsite": 21,
+        "hybrid": 5
+      },
+      "spec": [
+        {
+          "v": "growth_generalist",
+          "n": 13
+        },
+        {
+          "v": "retention_lifecycle",
+          "n": 8
+        },
+        {
+          "v": "acquisition",
+          "n": 6
+        },
+        {
+          "v": "activation_onboarding",
+          "n": 2
+        },
+        {
+          "v": "growth_leadership",
+          "n": 1
+        },
+        {
+          "v": "experimentation",
+          "n": 1
+        }
+      ],
+      "compAvailable": 15,
+      "founding": 1,
+      "portfolio": {
+        "a16z": 41,
+        "market": 9,
+        "speedrun": 3
+      }
+    },
+    "customer": {
+      "total": 895,
+      "lvl": {
+        "mid": 383,
+        "senior": 114,
+        "junior": 94,
+        "intern": 92,
+        "lead_manager": 58,
+        "new_grad": 57,
+        "director": 25,
+        "vp": 16,
+        "staff_principal": 8
+      },
+      "lvlUnspecified": 48,
+      "student": 149,
+      "junior": 94,
+      "stage": {
+        "growth": 561,
+        "public": 181,
+        "series_a": 72,
+        "seed": 41,
+        "series_b": 34
+      },
+      "stageUnspecified": 6,
+      "early": 147,
+      "workplace": {
+        "remote": 204,
+        "onsite": 215,
+        "hybrid": 153
+      },
+      "spec": [
+        {
+          "v": "technical_support",
+          "n": 160
+        },
+        {
+          "v": "customer_success",
+          "n": 142
+        },
+        {
+          "v": "professional_services",
+          "n": 133
+        },
+        {
+          "v": "implementation_onboarding",
+          "n": 55
+        },
+        {
+          "v": "technical_account_management",
+          "n": 48
+        },
+        {
+          "v": "customer_support_tier1",
+          "n": 45
+        },
+        {
+          "v": "customer_education",
+          "n": 18
+        },
+        {
+          "v": "support_ops_tooling",
+          "n": 7
+        },
+        {
+          "v": "customer_leadership",
+          "n": 5
+        },
+        {
+          "v": "community_support",
+          "n": 3
+        },
+        {
+          "v": "other",
+          "n": 2
+        }
+      ],
+      "compAvailable": 268,
+      "founding": 19,
+      "portfolio": {
+        "a16z": 645,
+        "market": 236,
+        "speedrun": 14
+      }
+    },
+    "finance": {
+      "total": 848,
+      "lvl": {
+        "intern": 380,
+        "mid": 120,
+        "senior": 106,
+        "junior": 105,
+        "lead_manager": 32,
+        "new_grad": 30,
+        "director": 21,
+        "vp": 14,
+        "staff_principal": 7
+      },
+      "lvlUnspecified": 33,
+      "student": 410,
+      "junior": 105,
+      "stage": {
+        "public": 383,
+        "growth": 357,
+        "series_a": 45,
+        "series_b": 29,
+        "seed": 19
+      },
+      "stageUnspecified": 15,
+      "early": 93,
+      "workplace": {
+        "remote": 58,
+        "onsite": 130,
+        "hybrid": 56
+      },
+      "spec": [
+        {
+          "v": "accounting_controller",
+          "n": 196
+        },
+        {
+          "v": "fpa",
+          "n": 165
+        },
+        {
+          "v": "other",
+          "n": 60
+        },
+        {
+          "v": "tax",
+          "n": 50
+        },
+        {
+          "v": "quant_trading",
+          "n": 50
+        },
+        {
+          "v": "risk_credit",
+          "n": 27
+        },
+        {
+          "v": "treasury",
+          "n": 22
+        },
+        {
+          "v": "finance_leadership",
+          "n": 22
+        },
+        {
+          "v": "investment_banking",
+          "n": 20
+        },
+        {
+          "v": "investing_pe_growth",
+          "n": 17
+        },
+        {
+          "v": "corp_dev_ma",
+          "n": 13
+        },
+        {
+          "v": "equity_research",
+          "n": 5
+        },
+        {
+          "v": "quant_research",
+          "n": 2
+        },
+        {
+          "v": "investor_relations",
+          "n": 2
+        },
+        {
+          "v": "investing_vc",
+          "n": 2
+        }
+      ],
+      "compAvailable": 131,
+      "founding": 7,
+      "portfolio": {
+        "market": 508,
+        "a16z": 338,
+        "speedrun": 2
+      }
+    },
+    "legal": {
+      "total": 382,
+      "lvl": {
+        "mid": 135,
+        "intern": 88,
+        "senior": 62,
+        "junior": 48,
+        "director": 20,
+        "vp": 6,
+        "lead_manager": 6,
+        "staff_principal": 3,
+        "new_grad": 2
+      },
+      "lvlUnspecified": 12,
+      "student": 90,
+      "junior": 48,
+      "stage": {
+        "growth": 204,
+        "public": 104,
+        "series_a": 32,
+        "series_b": 19,
+        "seed": 14,
+        "nonprofit_gov": 1
+      },
+      "stageUnspecified": 8,
+      "early": 65,
+      "workplace": {
+        "remote": 51,
+        "onsite": 80,
+        "hybrid": 44
+      },
+      "spec": [
+        {
+          "v": "regulatory_compliance",
+          "n": 105
+        },
+        {
+          "v": "commercial_counsel",
+          "n": 61
+        },
+        {
+          "v": "policy_government_affairs",
+          "n": 46
+        },
+        {
+          "v": "paralegal_legal_ops",
+          "n": 44
+        },
+        {
+          "v": "product_privacy_counsel",
+          "n": 9
+        },
+        {
+          "v": "other",
+          "n": 7
+        },
+        {
+          "v": "general_counsel",
+          "n": 7
+        },
+        {
+          "v": "ip_patent",
+          "n": 5
+        },
+        {
+          "v": "securities_fund_formation",
+          "n": 4
+        }
+      ],
+      "compAvailable": 111,
+      "founding": 4,
+      "portfolio": {
+        "a16z": 250,
+        "market": 132
+      }
+    },
+    "people": {
+      "total": 660,
+      "lvl": {
+        "mid": 227,
+        "intern": 189,
+        "senior": 112,
+        "lead_manager": 25,
+        "junior": 20,
+        "new_grad": 19,
+        "staff_principal": 17,
+        "director": 16,
+        "vp": 13
+      },
+      "lvlUnspecified": 22,
+      "student": 208,
+      "junior": 20,
+      "stage": {
+        "growth": 373,
+        "public": 191,
+        "series_a": 43,
+        "series_b": 33,
+        "seed": 12,
+        "nonprofit_gov": 2
+      },
+      "stageUnspecified": 6,
+      "early": 88,
+      "workplace": {
+        "remote": 61,
+        "onsite": 148,
+        "hybrid": 71
+      },
+      "spec": [
+        {
+          "v": "recruiting_technical",
+          "n": 130
+        },
+        {
+          "v": "hr_business_partner",
+          "n": 117
+        },
+        {
+          "v": "people_ops_generalist",
+          "n": 83
+        },
+        {
+          "v": "learning_development",
+          "n": 73
+        },
+        {
+          "v": "recruiting_ops_coordination",
+          "n": 47
+        },
+        {
+          "v": "recruiting_gtm",
+          "n": 37
+        },
+        {
+          "v": "compensation_benefits",
+          "n": 29
+        },
+        {
+          "v": "recruiting_executive",
+          "n": 17
+        },
+        {
+          "v": "other",
+          "n": 3
+        }
+      ],
+      "compAvailable": 176,
+      "founding": 8,
+      "portfolio": {
+        "a16z": 431,
+        "market": 226,
+        "speedrun": 3
+      }
+    },
+    "business_development": {
+      "total": 376,
+      "lvl": {
+        "intern": 118,
+        "mid": 107,
+        "director": 54,
+        "senior": 43,
+        "new_grad": 21,
+        "vp": 19,
+        "junior": 5,
+        "lead_manager": 3,
+        "staff_principal": 1,
+        "founder": 1
+      },
+      "lvlUnspecified": 4,
+      "student": 139,
+      "junior": 5,
+      "stage": {
+        "growth": 193,
+        "public": 113,
+        "series_a": 32,
+        "seed": 21,
+        "series_b": 17
+      },
+      "stageUnspecified": 0,
+      "early": 70,
+      "workplace": {
+        "remote": 70,
+        "onsite": 67,
+        "hybrid": 43
+      },
+      "spec": [
+        {
+          "v": "partnerships_strategic",
+          "n": 69
+        },
+        {
+          "v": "bd_generalist",
+          "n": 53
+        },
+        {
+          "v": "channel_bd",
+          "n": 31
+        },
+        {
+          "v": "ecosystem_developer_partnerships",
+          "n": 17
+        },
+        {
+          "v": "licensing_content_deals",
+          "n": 6
+        },
+        {
+          "v": "other",
+          "n": 4
+        },
+        {
+          "v": "corporate_partnerships",
+          "n": 2
+        }
+      ],
+      "compAvailable": 100,
+      "founding": 7,
+      "portfolio": {
+        "a16z": 233,
+        "market": 139,
+        "speedrun": 4
+      }
+    },
+    "strategy": {
+      "total": 212,
+      "lvl": {
+        "intern": 142,
+        "new_grad": 25,
+        "senior": 12,
+        "director": 11,
+        "mid": 9,
+        "junior": 4,
+        "staff_principal": 3,
+        "vp": 1
+      },
+      "lvlUnspecified": 5,
+      "student": 167,
+      "junior": 4,
+      "stage": {
+        "public": 133,
+        "growth": 69,
+        "series_a": 3,
+        "seed": 2,
+        "series_b": 1
+      },
+      "stageUnspecified": 4,
+      "early": 6,
+      "workplace": {
+        "remote": 7,
+        "onsite": 23,
+        "hybrid": 13
+      },
+      "spec": [
+        {
+          "v": "strategy_ops",
+          "n": 54
+        },
+        {
+          "v": "management_consulting",
+          "n": 47
+        },
+        {
+          "v": "market_research_insights",
+          "n": 24
+        },
+        {
+          "v": "corporate_strategy",
+          "n": 13
+        },
+        {
+          "v": "pricing_strategy",
+          "n": 11
+        },
+        {
+          "v": "other",
+          "n": 6
+        },
+        {
+          "v": "competitive_intelligence",
+          "n": 2
+        }
+      ],
+      "compAvailable": 15,
+      "founding": 0,
+      "portfolio": {
+        "market": 169,
+        "a16z": 42,
+        "speedrun": 1
+      }
+    },
+    "executive": {
+      "total": 10,
+      "lvl": {
+        "c_level": 4,
+        "vp": 2,
+        "lead_manager": 1
+      },
+      "lvlUnspecified": 3,
+      "student": 0,
+      "junior": 0,
+      "stage": {
+        "growth": 7,
+        "series_a": 2,
+        "seed": 1
+      },
+      "stageUnspecified": 0,
+      "early": 3,
+      "workplace": {
+        "remote": 2,
+        "onsite": 4,
+        "hybrid": 2
+      },
+      "spec": [
+        {
+          "v": "head_of_function",
+          "n": 2
+        },
+        {
+          "v": "cto",
+          "n": 1
+        },
+        {
+          "v": "cro",
+          "n": 1
+        }
+      ],
+      "compAvailable": 1,
+      "founding": 0,
+      "portfolio": {
+        "a16z": 10
+      }
+    },
+    "hardware_manufacturing": {
+      "total": 3941,
+      "lvl": {
+        "intern": 1452,
+        "mid": 626,
+        "senior": 561,
+        "junior": 272,
+        "staff_principal": 254,
+        "new_grad": 226,
+        "lead_manager": 106,
+        "director": 19,
+        "vp": 9,
+        "c_level": 2
+      },
+      "lvlUnspecified": 414,
+      "student": 1678,
+      "junior": 272,
+      "stage": {
+        "growth": 2181,
+        "public": 1073,
+        "series_a": 271,
+        "series_b": 189,
+        "seed": 138,
+        "nonprofit_gov": 11
+      },
+      "stageUnspecified": 78,
+      "early": 598,
+      "workplace": {
+        "remote": 31,
+        "onsite": 860,
+        "hybrid": 35
+      },
+      "spec": [
+        {
+          "v": "manufacturing_engineering",
+          "n": 405
+        },
+        {
+          "v": "test_validation",
+          "n": 372
+        },
+        {
+          "v": "mechanical_design",
+          "n": 291
+        },
+        {
+          "v": "electrical_engineering",
+          "n": 281
+        },
+        {
+          "v": "other",
+          "n": 270
+        },
+        {
+          "v": "quality_reliability",
+          "n": 211
+        },
+        {
+          "v": "industrial_automation_controls",
+          "n": 125
+        },
+        {
+          "v": "semiconductor_process",
+          "n": 88
+        },
+        {
+          "v": "thermal_fluids",
+          "n": 81
+        },
+        {
+          "v": "machinist_cnc_fabrication",
+          "n": 76
+        },
+        {
+          "v": "propulsion",
+          "n": 69
+        },
+        {
+          "v": "power_electronics",
+          "n": 65
+        },
+        {
+          "v": "mechatronics",
+          "n": 63
+        },
+        {
+          "v": "process_engineering",
+          "n": 61
+        },
+        {
+          "v": "aerospace_structures",
+          "n": 60
+        },
+        {
+          "v": "avionics",
+          "n": 49
+        },
+        {
+          "v": "biomedical_device",
+          "n": 45
+        },
+        {
+          "v": "optics_photonics",
+          "n": 38
+        },
+        {
+          "v": "materials",
+          "n": 34
+        },
+        {
+          "v": "rf_antenna",
+          "n": 28
+        },
+        {
+          "v": "asic_verification",
+          "n": 27
+        },
+        {
+          "v": "pcb_layout",
+          "n": 17
+        },
+        {
+          "v": "battery_pack_bms",
+          "n": 15
+        },
+        {
+          "v": "robotics_hardware",
+          "n": 10
+        },
+        {
+          "v": "ev_powertrain",
+          "n": 6
+        },
+        {
+          "v": "lab_automation",
+          "n": 4
+        },
+        {
+          "v": "bioprocess_manufacturing",
+          "n": 2
+        },
+        {
+          "v": "wet_lab_scientist",
+          "n": 1
+        }
+      ],
+      "compAvailable": 527,
+      "founding": 9,
+      "portfolio": {
+        "a16z": 1992,
+        "market": 1945,
+        "speedrun": 4
+      }
+    }
+  },
+  "p0": {
+    "total": 23466,
+    "lvl": {
+      "intern": 8260,
+      "mid": 4673,
+      "senior": 3246,
+      "junior": 1738,
+      "new_grad": 1422,
+      "staff_principal": 1134,
+      "lead_manager": 780,
+      "director": 449,
+      "vp": 246,
+      "c_level": 10,
+      "founder": 2
+    },
+    "lvlUnspecified": 1506,
+    "student": 9682,
+    "junior": 1738,
+    "stage": {
+      "growth": 11371,
+      "public": 8495,
+      "series_a": 1588,
+      "series_b": 815,
+      "seed": 760,
+      "nonprofit_gov": 151
+    },
+    "stageUnspecified": 286,
+    "early": 3163,
+    "workplace": {
+      "remote": 2095,
+      "onsite": 4541,
+      "hybrid": 1642
+    },
+    "spec": [],
+    "compAvailable": 4664,
+    "founding": 278,
+    "portfolio": {
+      "a16z": 11924,
+      "market": 11331,
+      "speedrun": 211
+    },
+    "fn": {
+      "engineering": 4796,
+      "hardware_manufacturing": 3941,
+      "operations": 2881,
+      "sales": 1656,
+      "customer": 895,
+      "finance": 847,
+      "research": 749,
+      "marketing": 740,
+      "people": 659,
+      "other": 540,
+      "data": 536,
+      "product": 472,
+      "legal": 382,
+      "business_development": 376,
+      "design": 338,
+      "strategy": 211,
+      "growth": 53,
+      "executive": 10
+    },
+    "fnUnspecified": 3384
+  },
+  "p2": {
+    "total": 9681,
+    "portfolio": {
+      "market": 9211,
+      "a16z": 465,
+      "speedrun": 5
+    },
+    "stage": {
+      "public": 6750,
+      "growth": 2175,
+      "series_a": 162,
+      "series_b": 161,
+      "seed": 102,
+      "nonprofit_gov": 75
+    },
+    "stageUnspecified": 256,
+    "fn": {
+      "engineering": 1775,
+      "hardware_manufacturing": 1679,
+      "operations": 1186,
+      "research": 483,
+      "finance": 410,
+      "data": 347,
+      "marketing": 346,
+      "sales": 337,
+      "other": 247,
+      "people": 208,
+      "strategy": 167,
+      "product": 156,
+      "customer": 149,
+      "business_development": 139,
+      "design": 132,
+      "legal": 90,
+      "growth": 11
+    },
+    "fnUnspecified": 1819,
+    "size": {
+      "5000_plus": 6822,
+      "1001_5000": 1110,
+      "201_500": 319,
+      "51_200": 211,
+      "501_1000": 196,
+      "11_50": 112,
+      "1_10": 32
+    },
+    "sizeUnspecified": 879
+  },
+  "p2b": {
+    "total": 3163,
+    "lvl": {
+      "mid": 1418,
+      "senior": 516,
+      "intern": 345,
+      "staff_principal": 246,
+      "lead_manager": 117,
+      "junior": 109,
+      "new_grad": 80,
+      "director": 74,
+      "vp": 54,
+      "c_level": 2,
+      "founder": 1
+    },
+    "lvlUnspecified": 201,
+    "fn": {
+      "engineering": 799,
+      "hardware_manufacturing": 598,
+      "operations": 305,
+      "sales": 228,
+      "customer": 147,
+      "marketing": 133,
+      "finance": 93,
+      "people": 88,
+      "research": 87,
+      "product": 72,
+      "business_development": 70,
+      "legal": 65,
+      "design": 61,
+      "data": 40,
+      "other": 31,
+      "growth": 24,
+      "strategy": 6,
+      "executive": 3
+    },
+    "portfolio": {
+      "a16z": 2544,
+      "market": 409,
+      "speedrun": 210
+    }
+  },
+  "p3": {
+    "strategy": {
+      "early_student": 3,
+      "early_junior": 0,
+      "portfolio": {
+        "market": 3
+      },
+      "list": [
+        {
+          "id": "581925c5-7d8e-42e1-97f6-ed773713045f",
+          "title": "MBA Intern",
+          "company": "GenMD",
+          "seniority": "intern",
+          "fn": "strategy",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/mba-intern-genmd-581925c5?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "c2cd400e-b55d-4ba3-8cbb-d367451e849f",
+          "title": "Nuclear Digital Consulting Intern",
+          "company": "Nuclear Promise X",
+          "seniority": "intern",
+          "fn": "strategy",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/nuclear-digital-consulting-intern-nuclear-promise-x-c2cd400e?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "4848fd37-97f5-4595-851d-0795da9f21b4",
+          "title": "GTM Intern, Strategy & Operations",
+          "company": "Simular",
+          "seniority": "intern",
+          "fn": "strategy",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-strategy-operations-simular-4848fd37?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "operations": {
+      "early_student": 21,
+      "early_junior": 18,
+      "portfolio": {
+        "market": 14,
+        "a16z": 7
+      },
+      "list": [
+        {
+          "id": "d50849fb-c9e6-441f-b50a-73cdeddf03e1",
+          "title": "Founders Associate Internship - COO Office (all genders)",
+          "company": "Lio",
+          "seniority": "exec",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/founders-associate-internship-coo-office-all-genders-lio-d50849fb?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "0878198a-6899-4a3c-9558-dedddeac14aa",
+          "title": "Founders Associate Internship - CEO Office (all genders)",
+          "company": "Lio",
+          "seniority": "exec",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/founders-associate-internship-ceo-office-all-genders-lio-0878198a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "67ec6647-9714-465f-9d47-7b40a31f5f77",
+          "title": "Global Supply Manager MBA Spring Intern (Austin)",
+          "company": "Exowatt",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/global-supply-manager-mba-spring-intern-austin-exowatt-67ec6647?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6f40abbb-f067-4621-bfee-1a561687f54d",
+          "title": "Buyer / Supply Chain & Logistics Spring Intern (Austin)",
+          "company": "Exowatt",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/buyer-supply-chain-logistics-spring-intern-austin-exowatt-6f40abbb?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "7bfa4ec0-7d5a-475b-aa2b-0cd0741e1549",
+          "title": "Supply Chain Operations Intern (2027 Summer Internship)",
+          "company": "Northwood Space",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/supply-chain-operations-intern-2027-summer-internship-northwood-space-7bfa4ec0?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "397a6085-8bd7-ed69-7e91-7cbd18de0a14",
+          "title": "Sourcing Intern, Supply Chain (Summer 2027)",
+          "company": "AMCA",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/sourcing-intern-supply-chain-summer-2027-amca-397a6085?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "fe4b7026-42a9-4774-b223-fff882a39bc8",
+          "title": "Supply Chain Intern (Summer 2027)",
+          "company": "Saronic Technologies",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/supply-chain-intern-summer-2027-saronic-fe4b7026?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b0ff80ee-39b4-4471-bd9b-96d664111b70",
+          "title": "Founders Associate Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/founders-associate-intern-clera-b0ff80ee?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "5c1f661e-9c3a-4cca-bd47-ba792ded5f3b",
+          "title": "Operations Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/operations-intern-clera-5c1f661e?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "32723318-ef67-4c80-9e40-8818274bb8cf",
+          "title": "Strategic Operations Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/strategic-operations-intern-clera-32723318?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "708c94ba-478f-4b2f-88dd-8fa808ca2866",
+          "title": "Supply Chain Intern (Jan 2027) (4 months)",
+          "company": "Kepler Communications",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/supply-chain-intern-jan-2027-4-months-kepler-communications-708c94ba?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "902ea8f8-139b-7305-d4ec-3f6048172991",
+          "title": "Business Operations & Program Management Intern",
+          "company": "Tenstorrent",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-operations-program-management-intern-tenstorrent-902ea8f8?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "71321f1b-d6d0-4058-a42f-d01bd9169afe",
+          "title": "Product Operations Intern",
+          "company": "Flagright",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-operations-intern-flagright-71321f1b?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "bdd3fa64-e3e2-97e7-595e-784b0b812c64",
+          "title": "Project Design and Construction Management Intern",
+          "company": "RFCUNY",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/project-design-and-construction-management-intern-rfcuny-bdd3fa64?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "e8bbd087-8362-465c-9633-dc17d6f13430",
+          "title": "Visiting Associate Cohort",
+          "company": "Prior Labs",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/visiting-associate-cohort-prior-labs-e8bbd087?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b372f2b5-71d1-462f-a63e-f54ab9992d37",
+          "title": "Product Operations Intern",
+          "company": "Flagright",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-operations-intern-flagright-b372f2b5?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "9993d391-6313-62f1-734c-ec1fbd88928d",
+          "title": "Fleet Maintenance Coordinator Intern",
+          "company": "RFCUNY",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/fleet-maintenance-coordinator-intern-rfcuny-9993d391?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "0597dd82-d5e7-4d3d-b434-7396a81c91d4",
+          "title": "GTM Intern, Growth Operations",
+          "company": "Simular",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-growth-operations-simular-0597dd82?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6202ed84-7648-cffa-636b-f1866a7fb059",
+          "title": "Project Design and Construction Management Intern",
+          "company": "RFCUNY",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/project-design-and-construction-management-intern-rfcuny-6202ed84?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "7a213fd3-bcfd-2469-3b74-7699e30b52b5",
+          "title": "SkillBridge Project Management Internship",
+          "company": "Technergetics",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/skillbridge-project-management-internship-technergetics-7a213fd3?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6c4571f6-511c-d13b-e716-339be5dd760d",
+          "title": "Business Operations Internship, Summer 2027",
+          "company": "Perpay",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-operations-internship-summer-2027-perpay-6c4571f6?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "sales": {
+      "early_student": 3,
+      "early_junior": 32,
+      "portfolio": {
+        "a16z": 2,
+        "market": 1
+      },
+      "list": [
+        {
+          "id": "9e299caa-72e4-4552-9649-1018710ef828",
+          "title": "Value Engineer (all genders)",
+          "company": "Lio",
+          "seniority": "intern",
+          "fn": "sales",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/value-engineer-all-genders-lio-9e299caa?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "02d110a7-4ffa-4234-a451-158971d1b30a",
+          "title": "Sales Development Representative (all genders)",
+          "company": "Lio",
+          "seniority": "intern",
+          "fn": "sales",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/sales-development-representative-all-genders-lio-02d110a7?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "ffd01330-b32f-4868-9390-3af135335ab0",
+          "title": "Sales Engineering Co-Op",
+          "company": "Acceldata",
+          "seniority": "intern",
+          "fn": "sales",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/sales-engineering-co-op-acceldata-ffd01330?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "business_development": {
+      "early_student": 7,
+      "early_junior": 1,
+      "portfolio": {
+        "market": 5,
+        "a16z": 2
+      },
+      "list": [
+        {
+          "id": "823aab95-be9b-485e-a8fc-4024440a91cd",
+          "title": "Intern, Business Development Associate, Fall 2026/Winter 2027",
+          "company": "Heron Power",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/intern-business-development-associate-fall-2026-winter-2027-heron-power-823aab95?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "41436e1a-172f-3d8e-6f89-81cca8031565",
+          "title": "Engineering Internship, Business Operations (Summer 2027)",
+          "company": "AMCA",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/engineering-internship-business-operations-summer-2027-amca-41436e1a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1ef9dffe-be25-48ce-bc9f-f4e6a6c1da45",
+          "title": "Business Development Representative Japan — Internship",
+          "company": "Alta Ares",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-development-representative-japan-internship-alta-ares-1ef9dffe?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "fa5fcb17-408b-7ea0-dfa4-feec2bb701ed",
+          "title": "(SUMMER) Business Development Research Intern",
+          "company": "Integra FEC",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/summer-business-development-research-intern-integra-fec-fa5fcb17?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1e63f332-31ca-5d9e-f22d-bfd7736f27c1",
+          "title": "(SPRING) Business Development Research Intern",
+          "company": "Integra FEC",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/spring-business-development-research-intern-integra-fec-1e63f332?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6d52233a-b0c4-4a2b-8034-6a5e6fa04f0c",
+          "title": "Internship - Public Affairs & Partnership",
+          "company": "Alta Ares",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/internship-public-affairs-partnership-alta-ares-6d52233a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "406e99a2-51df-4229-adb9-451755691e77",
+          "title": "Business Development Intern – Summer/Fall 2026",
+          "company": "Revise Robotics",
+          "seniority": "intern",
+          "fn": "business_development",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-development-intern-summer-fall-2026-revise-robotics-406e99a2?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "product": {
+      "early_student": 6,
+      "early_junior": 1,
+      "portfolio": {
+        "market": 6
+      },
+      "list": [
+        {
+          "id": "501d374d-7d4f-4889-bc53-0a1fd16253ea",
+          "title": "AI Product Management Intern",
+          "company": "OpusClip",
+          "seniority": "intern",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ai-product-management-intern-opusclip-501d374d?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "00dc1010-f699-4f43-822b-fdfa57a0da8a",
+          "title": "Product Intern - Fall",
+          "company": "Hubs.is",
+          "seniority": "intern",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-intern-fall-hubs-is-00dc1010?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1675cecb-fa30-4ea6-9946-7f8a4ac83408",
+          "title": "Product Innovation Co-op",
+          "company": "LightGuide, Inc.",
+          "seniority": "intern",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-innovation-co-op-lightguide-inc-1675cecb?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "4da91083-999a-4bf8-b53d-92a179073af2",
+          "title": "Product Manager Intern",
+          "company": "Creatify Lab",
+          "seniority": "intern",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-manager-intern-creatify-lab-4da91083?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1f8425be-cd39-4397-a9c1-6511ecfc39fc",
+          "title": "Product Manager (New Grad)",
+          "company": "Uncountable",
+          "seniority": "junior",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-manager-new-grad-uncountable-1f8425be?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "f7fd317a-37f8-0586-7311-4cfe048ba404",
+          "title": "SkillBridge Intern - Product Manager",
+          "company": "Rise8",
+          "seniority": "intern",
+          "fn": "product",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/skillbridge-intern-product-manager-rise8-f7fd317a?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "design": {
+      "early_student": 6,
+      "early_junior": 1,
+      "portfolio": {
+        "market": 4,
+        "a16z": 2
+      },
+      "list": [
+        {
+          "id": "bae114cc-1b1c-41f8-a391-eb8cb21aed3f",
+          "title": "Intern, Graphic Design",
+          "company": "Heron Power",
+          "seniority": "intern",
+          "fn": "design",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/intern-graphic-design-heron-power-bae114cc?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "35d45263-db3b-4553-b017-b4b1bbd0570d",
+          "title": "Product Internship Program",
+          "company": "K-ID",
+          "seniority": "intern",
+          "fn": "design",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/product-internship-program-k-id-35d45263?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "886f2cd0-2782-483b-9308-9f885f60165c",
+          "title": "Graphic Design Intern",
+          "company": "Hire Hangar",
+          "seniority": "intern",
+          "fn": "design",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graphic-design-intern-hire-hangar-886f2cd0?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "98c02c0e-1fe8-afcb-e14d-de34d6845f89",
+          "title": "Graduate UX Engineer 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "design",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-ux-engineer-2027-graphcore-98c02c0e?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2e45722a-d6aa-fd73-e6da-afd4f4f69adf",
+          "title": "UX Design Summer Intern 2027",
+          "company": "Graphcore",
+          "seniority": "intern",
+          "fn": "design",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ux-design-summer-intern-2027-graphcore-2e45722a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "3c53a046-4fc0-4b67-9295-1912abf16262",
+          "title": "Design Engineer Intern",
+          "company": "Simular",
+          "seniority": "intern",
+          "fn": "design",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/design-engineer-intern-simular-3c53a046?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "growth": {
+      "early_student": 3,
+      "early_junior": 0,
+      "portfolio": {
+        "market": 2,
+        "a16z": 1
+      },
+      "list": [
+        {
+          "id": "a46c5402-29aa-80a7-1282-212bd839c062",
+          "title": "Growth Internship (Summer 2027)",
+          "company": "AMCA",
+          "seniority": "intern",
+          "fn": "growth",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/growth-internship-summer-2027-amca-a46c5402?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "bb423c6c-3d23-431f-875e-9240f17cb83b",
+          "title": "Growth & Marketing Intern / New Grad",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "growth",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/growth-marketing-intern-new-grad-clera-bb423c6c?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "9ebd7fd4-818c-79c3-69bb-1ab8aaa99bd2",
+          "title": "SkillBridge Intern - Growth",
+          "company": "Rise8",
+          "seniority": "intern",
+          "fn": "growth",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/skillbridge-intern-growth-rise8-9ebd7fd4?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "marketing": {
+      "early_student": 14,
+      "early_junior": 3,
+      "portfolio": {
+        "market": 11,
+        "speedrun": 2,
+        "a16z": 1
+      },
+      "list": [
+        {
+          "id": "2e0f97fb-8a87-4c12-9d6b-cf517b22db0c",
+          "title": "Brainrot Intern",
+          "company": "Clouted (fka - Clout Kitchen)",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "speedrun",
+          "url": "https://speedrun-talent-network.com/jobs/brainrot-intern-clouted-2e0f97fb?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2ec3a149-364f-43f0-933a-4576432e0c5c",
+          "title": "Social Media & Marketing Intern",
+          "company": "Clouted (fka - Clout Kitchen)",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "speedrun",
+          "url": "https://speedrun-talent-network.com/jobs/social-media-marketing-intern-clouted-2ec3a149?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1d3c72e6-2e2c-4c70-9483-95c25fad394b",
+          "title": "Growth & Community Intern",
+          "company": "Viggle",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/growth-community-intern-viggle-1d3c72e6?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "f533cc7d-902d-4dd9-8337-4f0eb0c78786",
+          "title": "Community Intern",
+          "company": "Meshy",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/community-intern-meshy-f533cc7d?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6bf4fbc8-c8c4-4871-b232-fd3a88ba4efc",
+          "title": "GTM Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-clera-6bf4fbc8?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b82f41b1-c858-447a-a7ca-d04f9c9eb8ea",
+          "title": "GTM Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-clera-b82f41b1?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2bf8122d-2158-4523-82fb-c154908faead",
+          "title": "Marketing & Communication - Internship (6 months)",
+          "company": "Alta Ares",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/marketing-communication-internship-6-months-alta-ares-2bf8122d?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "d4a365c9-3d23-83fc-759d-5b6e1093d7e0",
+          "title": "Product Marketing Intern - AI & Automation",
+          "company": "Eulerity",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/product-marketing-intern-ai-automation-eulerity-d4a365c9?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "ffc628e2-6cea-4e9d-ae01-53a57f602e5f",
+          "title": "Marketing Intern",
+          "company": "Flagright",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/marketing-intern-flagright-ffc628e2?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2a676463-e479-0d8d-afe5-40f04c1f0d96",
+          "title": "STEP Social Media Intern",
+          "company": "RFCUNY",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/step-social-media-intern-rfcuny-2a676463?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b8281155-c4e2-41c5-9b8d-c4588c90fc24",
+          "title": "GTM Intern, Content & Distribution",
+          "company": "Simular",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-content-distribution-simular-b8281155?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6f63d0c8-c332-498f-ac69-08c305f5a9ee",
+          "title": "Technical Marketing Intern (Analytics, Research & Automation)",
+          "company": "Outpost Technologies",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/technical-marketing-intern-analytics-research-automation-outpost-technol-6f63d0c8?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "5280779a-bcd0-499c-9c3b-41e5dc493092",
+          "title": "B2C Marketing (part-time) Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/b2c-marketing-part-time-intern-clera-5280779a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "ab373f85-d647-9783-8098-87ff678395ca",
+          "title": "SkillBridge Intern - Marketing",
+          "company": "Rise8",
+          "seniority": "intern",
+          "fn": "marketing",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/skillbridge-intern-marketing-rise8-ab373f85?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "engineering": {
+      "early_student": 159,
+      "early_junior": 23,
+      "portfolio": {
+        "market": 133,
+        "a16z": 23,
+        "speedrun": 3
+      },
+      "list": [
+        {
+          "id": "164e27cd-289e-4bcd-8aaf-5280e75c5ed6",
+          "title": "Software Engineer, New Grad 2027",
+          "company": "Cursor",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-new-grad-2027-cursor-164e27cd?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "692bb497-59ba-44df-bacf-fffd2f7c6344",
+          "title": "Software Engineering Internship, Test & Automation (Summer 2027)",
+          "company": "Apex Space",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineering-internship-test-automation-summer-2027-apex-space-692bb497?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2d5ad921-241f-4e7a-b9ff-9d01763da88c",
+          "title": "Ground Software Engineering Internship (Spring or Summer 2027)",
+          "company": "Apex Space",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/ground-software-engineering-internship-spring-or-summer-2027-apex-space-2d5ad921?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "4203604c-2330-4c89-8432-37af718a6bda",
+          "title": "Software Engineering Internship, Embedded Systems (Spring or Summer 2027)",
+          "company": "Apex Space",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineering-internship-embedded-systems-spring-or-summer-2027-a-4203604c?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "740cedb6-3c69-49c2-8662-7997799b8c87",
+          "title": "Software Engineering Intern",
+          "company": "Astro Mechanica",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineering-intern-astro-mechanica-740cedb6?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6ee33f39-7a07-4b46-8caf-5f6f7b62eb40",
+          "title": "GNC Engineering Intern",
+          "company": "Astro Mechanica",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/gnc-engineering-intern-astro-mechanica-6ee33f39?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "5dbf22e3-41ba-40de-b428-6fab9934d6da",
+          "title": "Intern, Firmware Engineering",
+          "company": "Heron Power",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/intern-firmware-engineering-heron-power-5dbf22e3?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "571d7673-ce4b-414c-b736-38297d1d2b8b",
+          "title": "Summer 2027 Internship -  Member of Technical Staff -  Frontend",
+          "company": "Armadin",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/summer-2027-internship-member-of-technical-staff-frontend-armadin-571d7673?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "f2562cd7-abf2-434b-85ff-0a5016fbf0d6",
+          "title": "AI Engineer Intern",
+          "company": "Hex",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/ai-engineer-intern-hex-f2562cd7?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "3d182b7f-482e-45b2-8668-f04f0b5fda8e",
+          "title": "Full-Stack Software Engineer (New Grad) – Remote",
+          "company": "Spruce Systems",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/full-stack-software-engineer-new-grad-remote-spruce-systems-3d182b7f?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "e4a3448f-1875-e6b6-4cb8-1b6b923ce3ed",
+          "title": "Software Engineering Internship (Summer 2027)",
+          "company": "AMCA",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineering-internship-summer-2027-amca-e4a3448f?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "56d1d7e4-fa7e-4c25-aa8b-6828447fc64a",
+          "title": "Intern, Software Engineering, 2027",
+          "company": "Cowboy Space Corporation",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/intern-software-engineering-2027-cowboy-space-corporation-56d1d7e4?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "d6a1b110-10ad-4b5e-83a0-88c5fd7bc891",
+          "title": "Software Engineer Intern",
+          "company": "ConductorAI",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-intern-conductorai-d6a1b110?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "98352e43-0f84-4df8-9f17-88520fe8314a",
+          "title": "Full-Stack Software Engineer",
+          "company": "Viggle",
+          "seniority": null,
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/full-stack-software-engineer-viggle-98352e43?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2b6032f9-12a5-4083-b5e6-4bec5376cbaa",
+          "title": "Inference Engineering, Co-op",
+          "company": "Inferact",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/inference-engineering-co-op-inferact-2b6032f9?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6118e5ce-36b0-4f9a-a0c4-34dceb46b9c1",
+          "title": "Enterprise Technology Intern - AI and Automation (Summer 2027)",
+          "company": "Saronic Technologies",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/enterprise-technology-intern-ai-and-automation-summer-2027-saronic-6118e5ce?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "60afb634-5515-4347-824a-3816735541c2",
+          "title": "Software Engineer Intern (Summer 2027)",
+          "company": "Saronic Technologies",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-intern-summer-2027-saronic-60afb634?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "45022740-b0ca-4a54-a98b-b90f9b4a9a30",
+          "title": "Product Engineer Intern",
+          "company": "Hex",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/product-engineer-intern-hex-45022740?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce",
+          "title": "Forward Deployed Engineer Intern (Summer 2027)",
+          "company": "Saronic Technologies",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/forward-deployed-engineer-intern-summer-2027-saronic-cffe4bc2?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "8ddb9c3a-3031-42d4-ad68-adcc865e32cf",
+          "title": "Summer 2027 Internship - Member of Technical Staff - Agent Systems",
+          "company": "Armadin",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/summer-2027-internship-member-of-technical-staff-agent-systems-armadin-8ddb9c3a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "02e33109-08c5-4db7-8881-67294c172584",
+          "title": "Robotics Engineer Intern",
+          "company": "Hadrian",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/robotics-engineer-intern-hadrian-02e33109?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2b0423c6-947d-4226-8d23-90743bd5e63e",
+          "title": "Software Engineer Intern",
+          "company": "Hadrian",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-intern-hadrian-2b0423c6?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "9c4587d7-0ae8-4271-9e90-84899f9a7a14",
+          "title": "Member of Technical Staff, Intern",
+          "company": "Primitive Labs",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "speedrun",
+          "url": "https://speedrun-talent-network.com/jobs/member-of-technical-staff-intern-primitive-labs-9c4587d7?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "5c09bc26-f3a4-49a9-a454-902659a88b00",
+          "title": "Software Engineer Intern",
+          "company": "Infragrid",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "speedrun",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-intern-infragrid-5c09bc26?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "e010056f-12e1-4c82-9eb9-c81c3cfc7deb",
+          "title": "Forward Deployed Engineer Intern",
+          "company": "Infragrid",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "speedrun",
+          "url": "https://speedrun-talent-network.com/jobs/forward-deployed-engineer-intern-infragrid-e010056f?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "18619df2-45d8-4732-8815-9a340d498d48",
+          "title": "Engineering Internship Program",
+          "company": "K-ID",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/engineering-internship-program-k-id-18619df2?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "0daacf58-a15d-4c6f-bfa0-0fc069e4956e",
+          "title": "AI Product Operator Intern",
+          "company": "Niural",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ai-product-operator-intern-niural-0daacf58?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "1b5bbaef-5f12-4844-b9a3-e4ee826fa454",
+          "title": "ML Engineer - Internship",
+          "company": "Alta Ares",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ml-engineer-internship-alta-ares-1b5bbaef?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "00a6bb4f-fccb-4948-a2e9-71b736c2b0b4",
+          "title": "Forward Deployed Engineer, 2027 Graduate",
+          "company": "endeavorai.com",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/forward-deployed-engineer-2027-graduate-endeavorai-com-00a6bb4f?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b6ce03c4-07b6-45e1-94e9-24b3ec17d942",
+          "title": "AI Intern",
+          "company": "Terranova",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ai-intern-terranova-b6ce03c4?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "47c4fc76-f21f-402b-9d5c-45bafe30aa2c",
+          "title": "Member of Technical Staff Intern, Applied AI",
+          "company": "GenMD",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/member-of-technical-staff-intern-applied-ai-genmd-47c4fc76?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b03c6d08-5a09-4d4d-b34c-c5a1aa2214b5",
+          "title": "GNC Engineering Intern, ADCS and Orbit (Spring and Summer 2027)",
+          "company": "Omnis",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gnc-engineering-intern-adcs-and-orbit-spring-and-summer-2027-omnis-b03c6d08?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "c534b2ba-a409-4c26-bb92-704e48fccb63",
+          "title": "Wireless Systems Intern, MAC and PHY (Spring and Summer 2027)",
+          "company": "Omnis",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/wireless-systems-intern-mac-and-phy-spring-and-summer-2027-omnis-c534b2ba?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "682f35cb-8c78-78cf-9485-9a0c8dc711b8",
+          "title": "Spring 2027 Security Engineer Intern",
+          "company": "The Nuclear Company",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/spring-2027-security-engineer-intern-the-nuclear-company-682f35cb?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6906926b-eb37-4b68-ad17-5383fbda7818",
+          "title": "Customer Experience Test Automation Intern",
+          "company": "OpusClip",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/customer-experience-test-automation-intern-opusclip-6906926b?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "2791aef4-22ff-f328-43ad-67e6bf5aff0f",
+          "title": "Flight Software Engineer (Early Career)",
+          "company": "Rendezvous Robotics",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/flight-software-engineer-early-career-rendezvous-robotics-2791aef4?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "706b2038-3682-7a80-2011-c985c88929b8",
+          "title": "Graduate Firmware Engineer 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-firmware-engineer-2027-graphcore-706b2038?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "e9e58896-1afc-847d-8520-2db6aa9bbfd4",
+          "title": "Graduate Software Engineer, Drivers and Utilities 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-drivers-and-utilities-2027-graphcore-e9e58896?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "042e74b6-af3a-e21b-3620-5c5498af5abd",
+          "title": "Graduate Software Engineer, Analysis Tools 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-analysis-tools-2027-graphcore-042e74b6?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "15aa9742-0685-220c-4dbc-4a89ea87019a",
+          "title": "Graduate Software Engineer, AI/ ML Test Systems 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-ai-ml-test-systems-2027-graphcore-15aa9742?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "25498406-dc86-8f84-64ff-999ec0f6c5a9",
+          "title": "Graduate Software Engineer, DevOps 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-devops-2027-graphcore-25498406?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "09d52010-29c5-0d3f-c74a-5168548b34a4",
+          "title": "Graduate Software Engineer, System Software QA 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-system-software-qa-2027-graphcore-09d52010?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "008f734a-f5b8-46e8-77dd-5f0f5903a8e6",
+          "title": "Graduate Cloud Platform Engineer 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-cloud-platform-engineer-2027-graphcore-008f734a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "591123b2-ede2-153d-d777-f4b944eb0a5c",
+          "title": "Software Engineering Summer Intern, Drivers and Utilities 2027",
+          "company": "Graphcore",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineering-summer-intern-drivers-and-utilities-2027-graphcore-591123b2?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "93eb79a4-d8a9-d695-dac3-3e1d29ace3ee",
+          "title": "Graduate Software Engineer, Frameworks 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-frameworks-2027-graphcore-93eb79a4?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "c1788246-305f-4e4f-8b03-8444c76a466e",
+          "title": "AI Product Engineer, 2027 New Grad",
+          "company": "Brain Co.",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/ai-product-engineer-2027-new-grad-brain-co-c1788246?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "5170d023-8dd9-9172-3984-49639e684a75",
+          "title": "Software Engineer Summer Intern, AI Compute Libraries & Performance 2027",
+          "company": "Graphcore",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/software-engineer-summer-intern-ai-compute-libraries-performance-2027-gr-5170d023?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b2548046-7fa6-0cbf-aeab-603139b38857",
+          "title": "Graduate Machine Learning Engineer 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-machine-learning-engineer-2027-graphcore-b2548046?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "3706f261-0a39-fae5-f617-ab1f9c1d27bb",
+          "title": "Graduate Software Engineer, AI Compute Libraries & Performance 2027",
+          "company": "Graphcore",
+          "seniority": "junior",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/graduate-software-engineer-ai-compute-libraries-performance-2027-graphco-3706f261?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "ed48e9de-960a-2733-aa88-f67cc0797898",
+          "title": "Firmware Summer Intern 2027",
+          "company": "Graphcore",
+          "seniority": "intern",
+          "fn": "engineering",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/firmware-summer-intern-2027-graphcore-ed48e9de?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ]
+    },
+    "_all": {
+      "early_student": 425,
+      "fn": {
+        "engineering": 159,
+        "hardware_manufacturing": 107,
+        "research": 31,
+        "operations": 21,
+        "data": 15,
+        "marketing": 14,
+        "business_development": 7,
+        "product": 6,
+        "design": 6,
+        "other": 4,
+        "finance": 4,
+        "strategy": 3,
+        "sales": 3,
+        "people": 3,
+        "legal": 3,
+        "growth": 3,
+        "customer": 1
+      },
+      "fnUnspecified": 35,
+      "portfolio": {
+        "market": 339,
+        "a16z": 81,
+        "speedrun": 5
+      }
+    }
+  },
+  "p4": {
+    "bizops": {
+      "total": 4,
+      "lvl": {
+        "senior": 2,
+        "mid": 2
+      },
+      "lvlUnspecified": 0,
+      "student": 0,
+      "junior": 0,
+      "stage": {
+        "public": 3,
+        "seed": 1
+      },
+      "stageUnspecified": 0,
+      "early": 1,
+      "workplace": {
+        "remote": 0,
+        "hybrid": 1
+      },
+      "spec": [],
+      "compAvailable": 2,
+      "founding": 0,
+      "portfolio": {
+        "a16z": 3,
+        "speedrun": 1
+      },
+      "fn": {
+        "data": 2,
+        "operations": 1
+      },
+      "fnUnspecified": 1,
+      "student_total": 0,
+      "early_student_total": 0,
+      "sample_titles": [
+        "Business Operations Associate | Roblox",
+        "Senior Data Analyst- Scaled Moderation | Roblox",
+        "AI Content Systems Manager | Clouted (fka - Clout Kitchen)",
+        "Senior Data Analyst, Moderation Operations | Roblox"
+      ]
+    },
+    "business operations": {
+      "total": 199,
+      "lvl": {
+        "intern": 86,
+        "mid": 68,
+        "senior": 15,
+        "vp": 7,
+        "new_grad": 6,
+        "junior": 4,
+        "lead_manager": 3,
+        "director": 3,
+        "staff_principal": 1
+      },
+      "lvlUnspecified": 6,
+      "student": 92,
+      "junior": 4,
+      "stage": {
+        "growth": 84,
+        "public": 80,
+        "series_a": 20,
+        "seed": 10,
+        "series_b": 3
+      },
+      "stageUnspecified": 2,
+      "early": 33,
+      "workplace": {
+        "remote": 4,
+        "onsite": 46,
+        "hybrid": 10
+      },
+      "spec": [],
+      "compAvailable": 43,
+      "founding": 2,
+      "portfolio": {
+        "a16z": 114,
+        "market": 85
+      },
+      "fn": {
+        "operations": 76,
+        "business_development": 30,
+        "data": 18,
+        "finance": 15,
+        "people": 9,
+        "legal": 4,
+        "hardware_manufacturing": 3,
+        "engineering": 3,
+        "strategy": 2,
+        "product": 2,
+        "customer": 2,
+        "sales": 1,
+        "marketing": 1
+      },
+      "fnUnspecified": 33,
+      "student_total": 92,
+      "early_student_total": 5,
+      "sample_titles": [
+        "Business Operations | Lassie",
+        "Director of Finance & Business Operations | Infinite Machine",
+        "Open Application, Business Operations | AMCA",
+        "Business Operations Manager | Mariana Minerals",
+        "Business Operations, Analytics Engineer | Decagon",
+        "Business Operations Associate | Wonderschool",
+        "Business Operations, Pricing Strategy | Decagon",
+        "Engineering Internship, Business Operations (Summer 2027) | AMCA",
+        "Founders' Office, Business Operations | Decagon",
+        "Finance & Business Operations | Base Power Company",
+        "Program Management Internship, Business Operations (Summer 2027) | AMCA",
+        "Business Operations Generalist | Specter",
+        "Business Operations | Exa",
+        "Finance & Business Operations, MBA Intern | Base Power Company",
+        "Business Operations, Growth | Decagon",
+        "Business Operations Associate | Roblox",
+        "Engineering / Manufacturing Finance and Business Operations | Base Power Company",
+        "Supply Chain Business Operations Intern (Spring 2027) | Zipline",
+        "Supply Chain Business Operations Intern (Summer 2027) | Zipline",
+        "Business Operations | Plaid",
+        "Business Operations | Plaid",
+        "Go to Market Finance & Business Operations | Base Power Company",
+        "Business Operations | Alleviate Health",
+        "Business Operations - AI Builder | Rillet",
+        "Deployment Finance & Business Operations | Base Power Company",
+        "Director, Business Operations | Hebbia AI",
+        "Business Operations Manager, Office of the CEO | Flexport",
+        "Business Operations, Product & Science | Periodic Labs",
+        "Head of Business Operations | Glimpse",
+        "2027 Early Career Business Operations Analyst | Anduril Industries"
+      ]
+    },
+    "strategy and operations": {
+      "total": 58,
+      "lvl": {
+        "intern": 23,
+        "senior": 14,
+        "mid": 10,
+        "director": 3,
+        "staff_principal": 1,
+        "lead_manager": 1,
+        "junior": 1
+      },
+      "lvlUnspecified": 5,
+      "student": 23,
+      "junior": 1,
+      "stage": {
+        "growth": 32,
+        "public": 22,
+        "series_b": 2,
+        "series_a": 1
+      },
+      "stageUnspecified": 1,
+      "early": 3,
+      "workplace": {
+        "remote": 2,
+        "onsite": 29
+      },
+      "spec": [],
+      "compAvailable": 5,
+      "founding": 2,
+      "portfolio": {
+        "a16z": 36,
+        "market": 22
+      },
+      "fn": {
+        "strategy": 19,
+        "operations": 15,
+        "product": 3,
+        "legal": 2,
+        "finance": 2,
+        "sales": 1,
+        "growth": 1,
+        "engineering": 1,
+        "data": 1
+      },
+      "fnUnspecified": 13,
+      "student_total": 23,
+      "early_student_total": 0,
+      "sample_titles": [
+        "Senior Lead, Enterprise Strategy and Operations (R6097) | Shield AI",
+        "Lead, Enterprise Strategy and Operations (R6096) | Shield AI",
+        "Senior Lead, Enterprise Strategy and Operations (R5624) | Shield AI",
+        "Director, Enterprise Strategy and Operations (R5626) | Shield AI",
+        "Member Experience, Strategy and Operations | Base Power Company",
+        "Product Strategy and Operations, Senior Associate - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Senior Associate - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Director - New Verticals | Housing | EliseAI",
+        "GTM Strategy and Operations, APAC | Harvey",
+        "Product Strategy and Operations, Senior Manager - New Verticals | Housing | EliseAI",
+        "Lead Generation Strategy and Operations | ElevenLabs",
+        "Product Strategy and Operations, Manager - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Senior Manager - New Verticals | Housing | EliseAI",
+        "Industrial Strategy Lead, Production Strategy and Operations | Anduril Industries",
+        "Commercial Marketplace Strategy and Operations Intern (Spring 2027) | Zipline",
+        "Commercial Marketplace Strategy and Operations Intern (Summer 2027) | Zipline",
+        "Executive Business Partner, Strategy and Operations | Roblox",
+        "Strategy and Operations, Manager - Strategic Initiatives | Housing | EliseAI",
+        "Strategy and Operations, Senior Associate - Strategic Initiatives | Housing | EliseAI",
+        "Provider Strategy and Operations Manager/Director | Turquoise Health",
+        "Strategy and Operations, Future Platforms Associate/Sr Associate | Housing | EliseAI",
+        "Strategy and Operations, Manager / Senior Manager - Future Platforms | Housing | EliseAI",
+        "Strategy & Operations Project Intern (GBS - Monetization Strategy and Operations)- 2026 Start (BS/MS) | TikTok",
+        "Product Strategy and Operations Project Intern (PGC) - 2026 Start | TikTok",
+        "Strategy and Operations Project Intern, Mandarin Speaking (TikTok LIVE)-2026 Start (BS/MS) | TikTok",
+        "Strategy and Operations Intern (TikTok LIVE) - 2027 Start | TikTok",
+        "Business Intelligence Project Intern (GBS-Monetization Strategy and Operations - Market Research) - 2026 Start (BS/MS） | TikTok",
+        "Strategy and Operations Intern (TikTok LIVE)-2027 Start | TikTok",
+        "Strategy & Operations Project Intern (GBS-Monetization Strategy and Operations-LATAM) - 2026 Start (BS/MS) | TikTok",
+        "Strategy and Operations Intern, Italian and Chinese Speaking (TikTok LIVE)-2027 Start | TikTok"
+      ]
+    },
+    "chief of staff": {
+      "total": 10,
+      "lvl": {},
+      "lvlUnspecified": 10,
+      "student": 0,
+      "junior": 0,
+      "stage": {
+        "growth": 4,
+        "series_a": 3,
+        "seed": 2,
+        "public": 1
+      },
+      "stageUnspecified": 0,
+      "early": 5,
+      "workplace": {
+        "remote": 2,
+        "onsite": 4,
+        "hybrid": 1
+      },
+      "spec": [],
+      "compAvailable": 6,
+      "founding": 0,
+      "portfolio": {
+        "a16z": 7,
+        "speedrun": 3
+      },
+      "fn": {
+        "operations": 10
+      },
+      "fnUnspecified": 0,
+      "student_total": 0,
+      "early_student_total": 0,
+      "sample_titles": [
+        "Chief of Staff | Emanate (fka- Highstride AI)",
+        "Chief of Staff to the CTO | Northwood Space",
+        "Chief of Staff | Clair Health",
+        "Chief of Staff, Office of the President | Replit",
+        "Enterprise Deployment - Chief of Staff | ElevenLabs",
+        "Chief of Staff | Forgepoint",
+        "Chief of Staff, Lyft Urban Solutions | Lyft",
+        "Chief of Staff, Office of the President | Ambience Healthcare",
+        "Chief of Staff, Production | Anduril Industries",
+        "Chief of Staff | Pindrop"
+      ]
+    },
+    "founding gtm": {
+      "total": 15,
+      "lvl": {
+        "mid": 8,
+        "senior": 4,
+        "staff_principal": 1,
+        "intern": 1
+      },
+      "lvlUnspecified": 1,
+      "student": 1,
+      "junior": 0,
+      "stage": {
+        "series_a": 8,
+        "seed": 4,
+        "growth": 2,
+        "series_b": 1
+      },
+      "stageUnspecified": 0,
+      "early": 13,
+      "workplace": {
+        "remote": 1,
+        "onsite": 11,
+        "hybrid": 2
+      },
+      "spec": [],
+      "compAvailable": 8,
+      "founding": 13,
+      "portfolio": {
+        "a16z": 13,
+        "speedrun": 2
+      },
+      "fn": {
+        "sales": 8,
+        "people": 2,
+        "operations": 1,
+        "marketing": 1
+      },
+      "fnUnspecified": 3,
+      "student_total": 1,
+      "early_student_total": 1,
+      "sample_titles": [
+        "Member of Technical Staff, Founding GTM | Mirendil",
+        "Founding GTM Recruiter | Fal",
+        "Founding GTM Recruiter | Town",
+        "Founding GTM Lead | Schemata (Traverse3d)",
+        "Founding Member of Operations Staff, GTM | Preference Model",
+        "Founding Account Executive | Emanate (fka- Highstride AI)",
+        "Founders Associate Internship - CEO Office (all genders) | Lio",
+        "Founders Associate (Growth) | Lio",
+        "Founding Marketer | TypeSafe",
+        "Founding Account Executive | Concourse",
+        "Founding Solutions Engineer | Sola",
+        "Founding Account Executive | Sola",
+        "Founding Commercial Account Manager | Hex",
+        "Founding Account Executive | Flexport",
+        "Founding Strategic Account Executive | HappyRobot"
+      ]
+    },
+    "founding account executive": {
+      "total": 6,
+      "lvl": {
+        "senior": 3,
+        "mid": 3
+      },
+      "lvlUnspecified": 0,
+      "student": 0,
+      "junior": 0,
+      "stage": {
+        "series_a": 2,
+        "seed": 2,
+        "growth": 2
+      },
+      "stageUnspecified": 0,
+      "early": 4,
+      "workplace": {
+        "remote": 0,
+        "onsite": 3,
+        "hybrid": 2
+      },
+      "spec": [],
+      "compAvailable": 1,
+      "founding": 6,
+      "portfolio": {
+        "a16z": 4,
+        "speedrun": 2
+      },
+      "fn": {
+        "sales": 6
+      },
+      "fnUnspecified": 0,
+      "student_total": 0,
+      "early_student_total": 0,
+      "sample_titles": [
+        "Founding Account Executive | Bead",
+        "Founding Account Executive | Emanate (fka- Highstride AI)",
+        "Founding Account Executive | Concourse",
+        "Founding Account Executive | Sola",
+        "Founding Account Executive | Flexport",
+        "Founding Strategic Account Executive | HappyRobot"
+      ]
+    },
+    "forward deployed": {
+      "total": 211,
+      "lvl": {
+        "mid": 122,
+        "senior": 23,
+        "intern": 22,
+        "new_grad": 19,
+        "director": 11,
+        "staff_principal": 7,
+        "lead_manager": 2,
+        "junior": 2,
+        "vp": 1
+      },
+      "lvlUnspecified": 2,
+      "student": 41,
+      "junior": 2,
+      "stage": {
+        "growth": 132,
+        "series_a": 35,
+        "seed": 22,
+        "series_b": 20,
+        "public": 1
+      },
+      "stageUnspecified": 1,
+      "early": 77,
+      "workplace": {
+        "remote": 41,
+        "onsite": 99,
+        "hybrid": 46
+      },
+      "spec": [],
+      "compAvailable": 68,
+      "founding": 4,
+      "portfolio": {
+        "a16z": 168,
+        "market": 36,
+        "speedrun": 7
+      },
+      "fn": {
+        "engineering": 94,
+        "customer": 38,
+        "product": 12,
+        "hardware_manufacturing": 6,
+        "sales": 3,
+        "operations": 2,
+        "research": 1
+      },
+      "fnUnspecified": 55,
+      "student_total": 41,
+      "early_student_total": 7,
+      "sample_titles": [
+        "Product Builder (Forward Deployed) | Brief",
+        "Forward Deployed Engineer Intern | Infragrid",
+        "Founding Forward Deployed Engineer | Emanate (fka- Highstride AI)",
+        "Forward Deployed Engineer Intern (all genders) | Lio",
+        "Product Manager, Forward Deployed | Exa",
+        "Forward Deployed Engineer (all genders) | Lio",
+        "Forward Deployed Engineer (all genders) | Lio",
+        "Forward Deployed Engineer II (5951) | Shield AI",
+        "Forward Deployed AI Software Engineer | Lio",
+        "Forward Deployed Creative [US] | Luma AI",
+        "Forward Deployed Creative [Germany] | Luma AI",
+        "Forward Deployed Creative [UK, French Speaking] | Luma AI",
+        "Principal Forward Deployed Engineer | Spruce Systems",
+        "Forward Deployed Engineer | General Magic (fka - Open Sesame)",
+        "Forward Deployed Engineer | Method Security",
+        "Forward Deployed Engineer | Armadin",
+        "Forward Deployed Strategist | Cursor",
+        "Forward Deployed Engineer | Stuut",
+        "Principal/Senior Forward Deployed Engineer | Fal",
+        "Forward Deployed Engineer, Physics & Simulation | Periodic Labs",
+        "Forward Deployed Engineer, GTM | Kong",
+        "Forward Deployed Engineer | Jeeves",
+        "Forward Deployed Engineer | Jeeves",
+        "Forward Deployed Engineer | Jeeves",
+        "Member of Technical Staff, Forward Deployed Engineer | Inferact",
+        "Forward Deployed Engineer Intern (Summer 2027) | Saronic Technologies",
+        "Forward Deployed Implementation Engineer | TENEX.AI",
+        "Forward Deployed Engineer - India | Cursor",
+        "Forward Deployed Engineer - AI/ML Platforms | AnyScale",
+        "Forward Deployed Engineer, Western Europe | Cursor"
+      ]
+    },
+    "product engineer": {
+      "total": 551,
+      "lvl": {
+        "mid": 209,
+        "senior": 135,
+        "intern": 79,
+        "staff_principal": 46,
+        "lead_manager": 34,
+        "new_grad": 28,
+        "junior": 8,
+        "director": 2,
+        "vp": 1,
+        "founder": 1
+      },
+      "lvlUnspecified": 8,
+      "student": 107,
+      "junior": 8,
+      "stage": {
+        "growth": 353,
+        "series_a": 76,
+        "public": 59,
+        "seed": 28,
+        "series_b": 25
+      },
+      "stageUnspecified": 10,
+      "early": 129,
+      "workplace": {
+        "remote": 59,
+        "onsite": 169,
+        "hybrid": 80
+      },
+      "spec": [],
+      "compAvailable": 160,
+      "founding": 13,
+      "portfolio": {
+        "a16z": 433,
+        "market": 104,
+        "speedrun": 14
+      },
+      "fn": {
+        "engineering": 222,
+        "hardware_manufacturing": 143,
+        "operations": 47,
+        "customer": 31,
+        "product": 24,
+        "people": 9,
+        "data": 9,
+        "design": 7,
+        "marketing": 2,
+        "growth": 2,
+        "legal": 1,
+        "finance": 1
+      },
+      "fnUnspecified": 53,
+      "student_total": 107,
+      "early_student_total": 14,
+      "sample_titles": [
+        "Product Engineer | Emanate (fka- Highstride AI)",
+        "Product Engineer | speedrun",
+        "Product Engineer (all genders) | Lio",
+        "Customer Product Engineer, EMEA | Alchemy",
+        "Product Engineer | Improbable",
+        "Product Engineer | Periodic Labs",
+        "Senior Product Engineer | Prosper AI",
+        "AI Product Engineer | Sekai",
+        "Product Engineer | krea.ai",
+        "Member of Technical Staff, Product Engineer | Sonder",
+        "Product Engineer | Mintlify",
+        "Senior Product Engineer | Mintlify",
+        "Member of Technical Staff – Product Engineering | Phylo",
+        "AI Product Engineer | Town",
+        "AI Product Engineer | Town",
+        "Product Engineering - Engineering Manager / Sr. Engineering Manager | Sprinter Health",
+        "Product Engineering - Engineering Manager / Sr. Engineering Manager | Sprinter Health",
+        "Product Engineer Intern | Hex",
+        "Senior Product Engineer, Full Stack | SentiLink",
+        "Product Engineering Lead | Sesame",
+        "Founding Product Engineer | Alleviate Health",
+        "🔮 Product Engineer (Full Stack) | Partiful",
+        "Staff/Sr. Staff Software Engineer, Product Engineering | Harvey",
+        "Staff/Sr. Staff Software Engineer, Product Engineering | Harvey",
+        "Strategic Finance Lead, Product & Engineering | Plaid",
+        "Senior Product Engineer | Sphere",
+        "Shipyard Production Engineer | Saronic Technologies",
+        "Senior Product Engineer | Dex",
+        "Staff Mechanical Product Engineer (Production) | Anduril Industries",
+        "Product Engineering Team - Software Engineer (Senior) | Sprinter Health"
+      ]
+    },
+    "growth": {
+      "total": 288,
+      "lvl": {
+        "mid": 110,
+        "senior": 54,
+        "intern": 52,
+        "new_grad": 24,
+        "director": 15,
+        "staff_principal": 8,
+        "lead_manager": 6,
+        "vp": 5,
+        "junior": 4
+      },
+      "lvlUnspecified": 10,
+      "student": 76,
+      "junior": 4,
+      "stage": {
+        "growth": 132,
+        "public": 70,
+        "series_a": 53,
+        "series_b": 18,
+        "seed": 14
+      },
+      "stageUnspecified": 1,
+      "early": 85,
+      "workplace": {
+        "remote": 76,
+        "onsite": 76,
+        "hybrid": 39
+      },
+      "spec": [],
+      "compAvailable": 97,
+      "founding": 6,
+      "portfolio": {
+        "a16z": 208,
+        "market": 74,
+        "speedrun": 6
+      },
+      "fn": {
+        "growth": 49,
+        "marketing": 39,
+        "sales": 34,
+        "engineering": 33,
+        "business_development": 22,
+        "operations": 19,
+        "product": 14,
+        "data": 6,
+        "design": 3,
+        "people": 2,
+        "finance": 1,
+        "customer": 1
+      },
+      "fnUnspecified": 65,
+      "student_total": 76,
+      "early_student_total": 6,
+      "sample_titles": [
+        "Growth Engineer | Emanate (fka- Highstride AI)",
+        "Growth Marketing Manager, Paid Media & Audience Growth | Shield AI",
+        "Growth Engineer, Web & Growth Products | Decagon",
+        "Member of Business Staff - Growth | Eragon",
+        "Growth & Community Intern | Viggle",
+        "Growth Lead (Energy) | Air Space Intelligence",
+        "Growth (Commercial) | Belisar",
+        "Software Engineer, Growth | Lassie",
+        "AI-native Growth Hacker | Hercules",
+        "Growth Lead (Defense) | Air Space Intelligence",
+        "Institutional Growth Lead- Greater China | Solana Foundation",
+        "Growth Intern | Base Power Company",
+        "Child Care Licensing & Provider Growth Specialist - North Carolina | Wonderschool",
+        "Software Engineer, Growth | Gamma",
+        "Growth Enterprise Account Executive - Austin | Kong",
+        "Growth | Sirius Technology",
+        "Open Application, Growth | AMCA",
+        "Growth Marketing Lead, Marketplace | Wonderschool",
+        "Engineering Manager, Growth | Gamma",
+        "Growth Internship (Summer 2027) | AMCA",
+        "Growth Marketing Manager | Gamma",
+        "Founders Associate (Growth) | Lio",
+        "Growth Lead | Maven",
+        "Staff Software Engineer, Growth & Experimentation | Hercules",
+        "Ecosystem Growth Manager | UniSwap",
+        "New Markets Growth, Utility Partnerships | Base Power Company",
+        "Enterprise Account Executive - Growth (SFO) | Kong",
+        "Enterprise Account Executive - Growth (Austin, TX) | Kong",
+        "Full Stack Software Engineer - Growth | Substack",
+        "New Media Manager, Social and Community Growth | Solana Foundation"
+      ]
+    }
+  },
+  "variants": {
+    "strategy-strategy_ops": {
+      "params": {
+        "fn": "strategy",
+        "spec": "strategy_ops"
+      },
+      "total": 54,
+      "lvl": {
+        "intern": 40,
+        "senior": 7,
+        "new_grad": 4,
+        "staff_principal": 1,
+        "director": 1
+      },
+      "lvlUnspecified": 1,
+      "student": 44,
+      "junior": 0,
+      "stage": {
+        "public": 37,
+        "growth": 16,
+        "series_a": 1
+      },
+      "stageUnspecified": 0,
+      "early": 1,
+      "workplace": {
+        "remote": 3,
+        "onsite": 9
+      },
+      "spec": [
+        {
+          "v": "strategy_ops",
+          "n": 54
+        },
+        {
+          "v": "management_consulting",
+          "n": 47
+        },
+        {
+          "v": "market_research_insights",
+          "n": 24
+        },
+        {
+          "v": "corporate_strategy",
+          "n": 13
+        },
+        {
+          "v": "pricing_strategy",
+          "n": 11
+        },
+        {
+          "v": "other",
+          "n": 6
+        },
+        {
+          "v": "competitive_intelligence",
+          "n": 2
+        }
+      ],
+      "compAvailable": 5,
+      "founding": 0,
+      "portfolio": {
+        "market": 41,
+        "a16z": 13
+      },
+      "fn": {
+        "strategy": 54
+      },
+      "early_student_total": 1,
+      "early_student_list": [
+        {
+          "id": "4848fd37-97f5-4595-851d-0795da9f21b4",
+          "title": "GTM Intern, Strategy & Operations",
+          "company": "Simular",
+          "seniority": "intern",
+          "fn": "strategy",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/gtm-intern-strategy-operations-simular-4848fd37?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ],
+      "sample_titles": [
+        "Senior Staff, Workplace AI (R5448) | Shield AI",
+        "Product Strategy and Operations, Senior Manager - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Senior Associate - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Senior Associate - New Verticals | Housing | EliseAI",
+        "Product Strategy and Operations, Senior Manager - New Verticals | Housing | EliseAI",
+        "Lead, Enterprise Strategy and Operations (R6096) | Shield AI",
+        "Commercial Marketplace Strategy and Operations Intern (Summer 2027) | Zipline",
+        "Commercial Marketplace Strategy and Operations Intern (Spring 2027) | Zipline",
+        "Commercial Strategy & Operations Intern (Summer 2027) | Zipline",
+        "Senior Associate, Payer Strategy & Ops | Headway",
+        "Senior Lead, Enterprise Strategy and Operations (R5624) | Shield AI",
+        "Director, Enterprise Strategy and Operations (R5626) | Shield AI",
+        "Product Strategy and Operations, Manager - New Verticals | Housing | EliseAI",
+        "Summer 2027 Internship: Analyst, Strategy & Operations | QTS",
+        "Treasury & Payment Solutions Strategy Intern, Summer 2027 (10 weeks) | Bank of Montreal",
+        "Treasury & Payment Solutions Strategy Internship, Summer 2027 (4 months) | Bank of Montreal",
+        "Medical Affairs Strategy & Execution – Oncology/Bladder Cancer Co-op | Johnson & Johnson",
+        "Summer Intern - VD eCommerce (Direct Value Proposition & Partnerships) | Samsung",
+        "Summer Intern - DA eCommerce (B2B & Parts Strategy) | Samsung",
+        "FMCG Strategy Project Intern (TikTok Shop by Tokopedia) - 2027 Start | TikTok",
+        "Regional Strategy and Partnerships Intern | Applied Materials",
+        "Grad Intern – R&D Strategy & Performance Excellence (SPx) (Summer 2027) | Amgen",
+        "Strategy & Planning Analyst Graduate | Marsh",
+        "Dine-In Strategy Operations Intern (TikTok Local Services) - 2027 Summer | TikTok",
+        "Operations Strategy & Transformation Intern | Generac",
+        "Strategy & Operations Internship Summer 2027 (Hybrid) | Enova",
+        "E-Commerce Central Strategy Intern (TikTok Shop (Singapore)) - 2027 Start | TikTok",
+        "Platform Strategy Intern, TikTok Shop (Thailand) - 2027 Start | TikTok",
+        "Regional Strategy and Partnerships Intern | Applied Materials",
+        "Strategy & Operations Project Intern (GBS-Commercial Incentive)- 2026 Start (BS/MS) | TikTok"
+      ]
+    },
+    "sales-founding": {
+      "params": {
+        "fn": "sales",
+        "founding": "1"
+      },
+      "total": 67,
+      "lvl": {
+        "mid": 27,
+        "senior": 19,
+        "lead_manager": 7,
+        "junior": 5,
+        "director": 5,
+        "vp": 1,
+        "staff_principal": 1
+      },
+      "lvlUnspecified": 2,
+      "student": 0,
+      "junior": 5,
+      "stage": {
+        "growth": 51,
+        "series_b": 6,
+        "series_a": 6,
+        "seed": 4
+      },
+      "stageUnspecified": 0,
+      "early": 16,
+      "workplace": {
+        "remote": 13,
+        "hybrid": 24,
+        "onsite": 20
+      },
+      "spec": [
+        {
+          "v": "account_executive_enterprise",
+          "n": 13
+        },
+        {
+          "v": "sales_leadership",
+          "n": 9
+        },
+        {
+          "v": "account_executive_smb",
+          "n": 7
+        },
+        {
+          "v": "sdr_bdr",
+          "n": 5
+        },
+        {
+          "v": "strategic_accounts",
+          "n": 4
+        },
+        {
+          "v": "sales_engineering",
+          "n": 4
+        },
+        {
+          "v": "account_executive_mid_market",
+          "n": 4
+        },
+        {
+          "v": "inside_sales",
+          "n": 3
+        },
+        {
+          "v": "account_management",
+          "n": 2
+        },
+        {
+          "v": "solutions_consulting",
+          "n": 1
+        },
+        {
+          "v": "sales_enablement",
+          "n": 1
+        }
+      ],
+      "compAvailable": 24,
+      "founding": 67,
+      "portfolio": {
+        "a16z": 65,
+        "speedrun": 2
+      },
+      "fn": {
+        "engineering": 83,
+        "sales": 67,
+        "customer": 19,
+        "operations": 14,
+        "design": 13,
+        "product": 9,
+        "hardware_manufacturing": 9,
+        "people": 8,
+        "data": 8,
+        "marketing": 7,
+        "finance": 7,
+        "business_development": 7,
+        "legal": 4,
+        "research": 1,
+        "other": 1,
+        "growth": 1
+      },
+      "early_student_total": 0,
+      "early_student_list": [],
+      "sample_titles": [
+        "Strategic Account Executive, Enterprise - Victoria | Cursor",
+        "Strategic Account Executive, Enterprise - Indonesia | Cursor",
+        "Strategic Account Executive, Enterprise - Thailand | Cursor",
+        "Strategic Account Executive, Enterprise - South Korea | Cursor",
+        "Strategic Enterprise Account Executive - Japan | Cursor",
+        "Founding Commercial Account Manager | Hex",
+        "Member of Technical Staff, Founding GTM | Mirendil",
+        "Legal Engineer (Transactional or In-house) | Harvey",
+        "Strategic Account Executive, DACH | Harvey",
+        "Manager, Account Management | Flexport",
+        "Sales Manager, Enterprise, India | Harvey",
+        "Founding Solutions Engineer | Sola",
+        "Account Executive, Enterprise | Harvey",
+        "Inside Sales Leader | Plaid",
+        "Founding Account Executive | Sola",
+        "Early Career, Inside Sales Representative (2027) | Figma",
+        "Sales Development Representative, ANZ | Harvey",
+        "Account Executive, SMB (Spanish Speaking) | Harvey",
+        "Account Executive, SMB (German Speaking) | Harvey",
+        "Account Executive, SMB (Portuguese Speaking) | Harvey",
+        "Account Executive, SMB (French Speaking) | Harvey",
+        "Account Executive, SMB, EMEA | Harvey",
+        "Founding Strategic Account Executive | HappyRobot",
+        "Business Development Associate | Mixpanel",
+        "Senior Outbound Strategist | Mixpanel",
+        "Account Executive - Payments | Plaid",
+        "SMB Account Executive | Harvey",
+        "Account Executive, Mid Market - Berlin | Harvey",
+        "Inside Sales Representative (Paris, France) | Figma",
+        "Associate Account Executive Manager | Plaid"
+      ]
+    },
+    "founding-all": {
+      "params": {
+        "founding": "1"
+      },
+      "total": 278,
+      "lvl": {
+        "mid": 145,
+        "senior": 65,
+        "staff_principal": 23,
+        "lead_manager": 12,
+        "director": 8,
+        "vp": 6,
+        "junior": 5,
+        "intern": 2,
+        "founder": 2
+      },
+      "lvlUnspecified": 10,
+      "student": 2,
+      "junior": 5,
+      "stage": {
+        "growth": 145,
+        "seed": 58,
+        "series_a": 49,
+        "series_b": 23,
+        "public": 3
+      },
+      "stageUnspecified": 0,
+      "early": 130,
+      "workplace": {
+        "remote": 46,
+        "onsite": 124,
+        "hybrid": 60
+      },
+      "spec": [],
+      "compAvailable": 111,
+      "founding": 278,
+      "portfolio": {
+        "a16z": 235,
+        "speedrun": 41,
+        "market": 2
+      },
+      "fn": {
+        "engineering": 83,
+        "sales": 67,
+        "customer": 19,
+        "operations": 14,
+        "design": 13,
+        "product": 9,
+        "hardware_manufacturing": 9,
+        "people": 8,
+        "data": 8,
+        "marketing": 7,
+        "finance": 7,
+        "business_development": 7,
+        "legal": 4,
+        "research": 1,
+        "other": 1,
+        "growth": 1
+      },
+      "early_student_total": 0,
+      "early_student_list": [],
+      "sample_titles": [
+        "PCB Designer | Northwood Space",
+        "Founding Content Creator | K-ID",
+        "Enterprise Customer Success Manager, Tokyo | Harvey",
+        "Security & Trust Analyst | TypeSafe",
+        "Senior Engineer, Component (R6605) | Shield AI",
+        "Product Designer - Figma Weave (Tel Aviv, Israel) | Figma",
+        "Founding Member of Operations Staff, GTM | Preference Model",
+        "Senior AI Application Engineer, Creator Tools | Roblox",
+        "Legal Engineer, Product Specialist | Harvey",
+        "Software Engineer, Photoreal 3D | Mirage",
+        "Technical Support Engineering Manager, Singapore, Australia, New Zealand, Indonesia | Cursor",
+        "Strategic Account Executive, Enterprise - Victoria | Cursor",
+        "Strategic Partnerships Lead - UK | Rillet",
+        "Field Marketing Manager | Cursor",
+        "Strategic Account Executive, Enterprise - Indonesia | Cursor",
+        "AI Deployment Manager, Scale | Cursor",
+        "Strategic Account Executive, Enterprise - Thailand | Cursor",
+        "Strategic Account Executive, Enterprise - South Korea | Cursor",
+        "Strategic Enterprise Account Executive - Japan | Cursor",
+        "Founding Finance | Mirendil",
+        "Founding Commercial Account Manager | Hex",
+        "Member of Technical Staff, Founding GTM | Mirendil",
+        "Legal Engineer (Transactional or In-house) | Harvey",
+        "Training Specialist | Hadrian",
+        "UX Researcher | Kalshi",
+        "Data Engineer | Stuut",
+        "Strategic Account Executive, DACH | Harvey",
+        "Full-Stack Engineer - Ads Engine | ElevenLabs",
+        "Founding Product Growth Engineer | HappyRobot",
+        "Senior Exec IT & Events Engineer | Kong"
+      ]
+    },
+    "operations-bizops": {
+      "params": {
+        "fn": "operations",
+        "spec": "bizops"
+      },
+      "total": 73,
+      "lvl": {
+        "mid": 27,
+        "intern": 24,
+        "senior": 10,
+        "junior": 5,
+        "new_grad": 3,
+        "vp": 1,
+        "staff_principal": 1,
+        "director": 1
+      },
+      "lvlUnspecified": 1,
+      "student": 27,
+      "junior": 5,
+      "stage": {
+        "growth": 34,
+        "public": 23,
+        "series_a": 8,
+        "seed": 4,
+        "series_b": 3
+      },
+      "stageUnspecified": 1,
+      "early": 15,
+      "workplace": {
+        "remote": 6,
+        "onsite": 15,
+        "hybrid": 6
+      },
+      "spec": [
+        {
+          "v": "logistics_fulfillment",
+          "n": 353
+        },
+        {
+          "v": "supply_chain",
+          "n": 326
+        },
+        {
+          "v": "procurement_sourcing",
+          "n": 258
+        },
+        {
+          "v": "program_management",
+          "n": 224
+        },
+        {
+          "v": "project_management",
+          "n": 153
+        },
+        {
+          "v": "field_operations",
+          "n": 141
+        },
+        {
+          "v": "marketplace_ops",
+          "n": 139
+        },
+        {
+          "v": "facilities_workplace",
+          "n": 128
+        },
+        {
+          "v": "bizops",
+          "n": 73
+        },
+        {
+          "v": "revops",
+          "n": 69
+        },
+        {
+          "v": "trust_safety_ops",
+          "n": 59
+        },
+        {
+          "v": "operations_leadership",
+          "n": 51
+        },
+        {
+          "v": "other",
+          "n": 42
+        },
+        {
+          "v": "customer_ops",
+          "n": 20
+        },
+        {
+          "v": "finance_ops",
+          "n": 17
+        },
+        {
+          "v": "clinical_ops",
+          "n": 16
+        },
+        {
+          "v": "chief_of_staff",
+          "n": 15
+        },
+        {
+          "v": "launch_expansion_ops",
+          "n": 10
+        },
+        {
+          "v": "founders_office_generalist",
+          "n": 8
+        },
+        {
+          "v": "lab_operations",
+          "n": 5
+        },
+        {
+          "v": "people_ops",
+          "n": 2
+        }
+      ],
+      "compAvailable": 12,
+      "founding": 0,
+      "portfolio": {
+        "a16z": 41,
+        "market": 32
+      },
+      "fn": {
+        "operations": 73
+      },
+      "early_student_total": 2,
+      "early_student_list": [
+        {
+          "id": "32723318-ef67-4c80-9e40-8818274bb8cf",
+          "title": "Strategic Operations Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/strategic-operations-intern-clera-32723318?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6c4571f6-511c-d13b-e716-339be5dd760d",
+          "title": "Business Operations Internship, Summer 2027",
+          "company": "Perpay",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-operations-internship-summer-2027-perpay-6c4571f6?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ],
+      "sample_titles": [
+        "Company Operations Lead | ElevenLabs",
+        "Division Operations Senior Associate, Undersea Dominance | Anduril Industries",
+        "Operations Generalist | TypeSafe",
+        "Division Operations, Senior Associate | Anduril Industries",
+        "Division Operations Lead, Group 3 | Anduril Industries",
+        "Senior Operations Associate | Headway",
+        "Division Operations, AFS | Anduril Industries",
+        "Operations Analyst, Hardware Platform Operations | Anduril Industries",
+        "Business Operations Analyst (Afternoon Shift) | SpotOn",
+        "Head of Business Operations | Glimpse",
+        "Division Operations Senior Associate, Maritime | Anduril Industries",
+        "Strategy & Ops | Ferry Health",
+        "Senior Business Process Engineer, Business Process & Procedures | Anduril Industries",
+        "Business Operations Generalist | Specter",
+        "Business Process Engineer | Hadrian",
+        "Director, Business Operations | Hebbia AI",
+        "Business Operations Manager | Mariana Minerals",
+        "Manager, Legal Operations | Eve",
+        "Business Operations, Production | Anduril Industries",
+        "Business Operations, Anduril | Anduril Industries",
+        "Business Operations | Plaid",
+        "Business Operations, Product & Science | Periodic Labs",
+        "Business Operations Associate | Roblox",
+        "Business Operations Lead | Crux",
+        "Manager, Business Operations, Air Defense | Anduril Industries",
+        "Business Operations, Production | Anduril Industries",
+        "Business Operations | Plaid",
+        "Business Operations, Air Dominance & Strike | Anduril Industries",
+        "Business Operations | Lassie",
+        "Member of Product Operations & Strategy Staff | Abridge"
+      ]
+    },
+    "operations-bizops-cos-founders": {
+      "params": {
+        "fn": "operations",
+        "spec": "bizops,chief_of_staff,founders_office_generalist"
+      },
+      "total": 96,
+      "lvl": {
+        "mid": 33,
+        "intern": 26,
+        "senior": 11,
+        "junior": 5,
+        "new_grad": 3,
+        "vp": 1,
+        "staff_principal": 1,
+        "director": 1
+      },
+      "lvlUnspecified": 15,
+      "student": 29,
+      "junior": 5,
+      "stage": {
+        "growth": 44,
+        "public": 27,
+        "series_a": 13,
+        "seed": 7,
+        "series_b": 4
+      },
+      "stageUnspecified": 1,
+      "early": 24,
+      "workplace": {
+        "remote": 8,
+        "onsite": 27,
+        "hybrid": 9
+      },
+      "spec": [
+        {
+          "v": "logistics_fulfillment",
+          "n": 353
+        },
+        {
+          "v": "supply_chain",
+          "n": 326
+        },
+        {
+          "v": "procurement_sourcing",
+          "n": 258
+        },
+        {
+          "v": "program_management",
+          "n": 224
+        },
+        {
+          "v": "project_management",
+          "n": 153
+        },
+        {
+          "v": "field_operations",
+          "n": 141
+        },
+        {
+          "v": "marketplace_ops",
+          "n": 139
+        },
+        {
+          "v": "facilities_workplace",
+          "n": 128
+        },
+        {
+          "v": "bizops",
+          "n": 73
+        },
+        {
+          "v": "revops",
+          "n": 69
+        },
+        {
+          "v": "trust_safety_ops",
+          "n": 59
+        },
+        {
+          "v": "operations_leadership",
+          "n": 51
+        },
+        {
+          "v": "other",
+          "n": 42
+        },
+        {
+          "v": "customer_ops",
+          "n": 20
+        },
+        {
+          "v": "finance_ops",
+          "n": 17
+        },
+        {
+          "v": "clinical_ops",
+          "n": 16
+        },
+        {
+          "v": "chief_of_staff",
+          "n": 15
+        },
+        {
+          "v": "launch_expansion_ops",
+          "n": 10
+        },
+        {
+          "v": "founders_office_generalist",
+          "n": 8
+        },
+        {
+          "v": "lab_operations",
+          "n": 5
+        },
+        {
+          "v": "people_ops",
+          "n": 2
+        }
+      ],
+      "compAvailable": 27,
+      "founding": 0,
+      "portfolio": {
+        "a16z": 60,
+        "market": 33,
+        "speedrun": 3
+      },
+      "fn": {
+        "operations": 96
+      },
+      "early_student_total": 4,
+      "early_student_list": [
+        {
+          "id": "0878198a-6899-4a3c-9558-dedddeac14aa",
+          "title": "Founders Associate Internship - CEO Office (all genders)",
+          "company": "Lio",
+          "seniority": "exec",
+          "fn": "operations",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/founders-associate-internship-ceo-office-all-genders-lio-0878198a?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "b0ff80ee-39b4-4471-bd9b-96d664111b70",
+          "title": "Founders Associate Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/founders-associate-intern-clera-b0ff80ee?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "32723318-ef67-4c80-9e40-8818274bb8cf",
+          "title": "Strategic Operations Intern",
+          "company": "Clera",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/strategic-operations-intern-clera-32723318?utm_source=role-decoder-edison&utm_medium=agent"
+        },
+        {
+          "id": "6c4571f6-511c-d13b-e716-339be5dd760d",
+          "title": "Business Operations Internship, Summer 2027",
+          "company": "Perpay",
+          "seniority": "intern",
+          "fn": "operations",
+          "tier": "market",
+          "url": "https://speedrun-talent-network.com/jobs/business-operations-internship-summer-2027-perpay-6c4571f6?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ],
+      "sample_titles": [
+        "Company Operations Lead | ElevenLabs",
+        "Executive Assistant | Kaizen Labs",
+        "Division Operations Senior Associate, Undersea Dominance | Anduril Industries",
+        "Operations Generalist | TypeSafe",
+        "Division Operations, Senior Associate | Anduril Industries",
+        "Division Operations Lead, Group 3 | Anduril Industries",
+        "Senior Operations Associate | Headway",
+        "Division Operations, AFS | Anduril Industries",
+        "Operations Analyst, Hardware Platform Operations | Anduril Industries",
+        "Business Operations Analyst (Afternoon Shift) | SpotOn",
+        "Founders Associate Internship - CEO Office (all genders) | Lio",
+        "Head of Business Operations | Glimpse",
+        "Chief of Staff, Lyft Urban Solutions | Lyft",
+        "Division Operations Senior Associate, Maritime | Anduril Industries",
+        "Chief of Staff, Office of the President | Ambience Healthcare",
+        "Executive Assistant to Founders | Exa",
+        "Strategy & Ops | Ferry Health",
+        "Chief of Staff, Office of the President | Replit",
+        "Senior Business Process Engineer, Business Process & Procedures | Anduril Industries",
+        "Business Operations Generalist | Specter",
+        "Administrative Assistant, Office of the CEO | Hadrian",
+        "Enterprise Deployment - Chief of Staff | ElevenLabs",
+        "Chief of Staff | Pindrop",
+        "Business Process Engineer | Hadrian",
+        "Chief of Staff | Clair Health",
+        "Executive Business Partner, Chief Business Officer | Roblox",
+        "Chief of Staff, Production | Anduril Industries",
+        "Executive Business Partner, Chief Creator Officer | Roblox",
+        "Director, Business Operations | Hebbia AI",
+        "Business Operations Manager | Mariana Minerals"
+      ]
+    },
+    "sales-sdr_bdr": {
+      "params": {
+        "fn": "sales",
+        "spec": "sdr_bdr"
+      },
+      "total": 160,
+      "lvl": {
+        "junior": 101,
+        "intern": 28,
+        "new_grad": 22,
+        "senior": 5,
+        "mid": 1,
+        "director": 1
+      },
+      "lvlUnspecified": 2,
+      "student": 50,
+      "junior": 101,
+      "stage": {
+        "growth": 89,
+        "public": 42,
+        "series_a": 20,
+        "series_b": 5,
+        "seed": 4
+      },
+      "stageUnspecified": 0,
+      "early": 29,
+      "workplace": {
+        "remote": 17,
+        "onsite": 46,
+        "hybrid": 24
+      },
+      "spec": [
+        {
+          "v": "account_executive_enterprise",
+          "n": 242
+        },
+        {
+          "v": "sales_engineering",
+          "n": 239
+        },
+        {
+          "v": "sdr_bdr",
+          "n": 160
+        },
+        {
+          "v": "sales_leadership",
+          "n": 102
+        },
+        {
+          "v": "account_executive_smb",
+          "n": 101
+        },
+        {
+          "v": "account_management",
+          "n": 98
+        },
+        {
+          "v": "strategic_accounts",
+          "n": 76
+        },
+        {
+          "v": "government_public_sector_sales",
+          "n": 67
+        },
+        {
+          "v": "account_executive_mid_market",
+          "n": 60
+        },
+        {
+          "v": "solutions_consulting",
+          "n": 22
+        },
+        {
+          "v": "sales_enablement",
+          "n": 18
+        },
+        {
+          "v": "inside_sales",
+          "n": 18
+        },
+        {
+          "v": "sales_ops_deal_desk",
+          "n": 17
+        },
+        {
+          "v": "other",
+          "n": 17
+        },
+        {
+          "v": "customer_expansion",
+          "n": 6
+        },
+        {
+          "v": "partner_sales",
+          "n": 3
+        },
+        {
+          "v": "international_expansion_sales",
+          "n": 2
+        }
+      ],
+      "compAvailable": 44,
+      "founding": 5,
+      "portfolio": {
+        "a16z": 113,
+        "market": 47
+      },
+      "fn": {
+        "sales": 160
+      },
+      "early_student_total": 1,
+      "early_student_list": [
+        {
+          "id": "02d110a7-4ffa-4234-a451-158971d1b30a",
+          "title": "Sales Development Representative (all genders)",
+          "company": "Lio",
+          "seniority": "intern",
+          "fn": "sales",
+          "tier": "a16z",
+          "url": "https://speedrun-talent-network.com/jobs/sales-development-representative-all-genders-lio-02d110a7?utm_source=role-decoder-edison&utm_medium=agent"
+        }
+      ],
+      "sample_titles": [
+        "Sales Development Representative (SDR) | Decagon",
+        "Sales Associate, New York | Talos",
+        "ADR- Enterprise | Illumio",
+        "Sales Development Representative | OpenGov",
+        "Sales Development Representative (SDR) | Decagon",
+        "Sales Development Representative | OpenGov",
+        "Sales Development Representative | OpenGov",
+        "Sales Development Representative | OpenGov",
+        "Sales Development - Japan | ElevenLabs",
+        "Business Development Representative | MotherDuck",
+        "Director of Sales, Sales Development | Eve",
+        "Cold Caller Specialist - SaaS | Jeeves",
+        "Sales Development Representative | Housing | EliseAI",
+        "Sales Development Representative | Pylon",
+        "ADR Germany | Kong",
+        "Sales Development Representative - ANZ | Cursor",
+        "AI Growth Specialist (BDR) | Descript",
+        "Sales Development Representative - New York | Cursor",
+        "Sales Development Representative - San Francisco | Cursor",
+        "Sales Development Representative | Starburst",
+        "Sales Development Representative | Dialpad",
+        "Sales Development Representative | Housing | EliseAI",
+        "Sales Development Representative | Tanium",
+        "Business Development Representative | SpotOn",
+        "Senior Team Lead, Account Development Representatives (Nordics & Benelux) | Kong",
+        "Sales Development Representative (all genders) | Lio",
+        "Senior Business Development Representative | Skydio",
+        "Sales Development Representative (SDR) (Night Shift) | OpenGov",
+        "Business Development Representative | Ideogram",
+        "Sales Development Representative, APAC | Cresta"
+      ]
+    }
+  },
+  "p5": {
+    "strategy": {
+      "params": {
+        "fn": "strategy"
+      },
+      "api_total": 15,
+      "returned": 15,
+      "kept": 15,
+      "kept_companies": 9,
+      "dropped": {},
+      "p25": 149500,
+      "median": 180000,
+      "p75": 201250
+    },
+    "strategy-strategy_ops": {
+      "params": {
+        "fn": "strategy",
+        "spec": "strategy_ops"
+      },
+      "api_total": 5,
+      "returned": 5,
+      "kept": 5,
+      "kept_companies": 2,
+      "dropped": {},
+      "p25": 170000,
+      "median": 190000,
+      "p75": 200000
+    },
+    "sales": {
+      "params": {
+        "fn": "sales"
+      },
+      "api_total": 486,
+      "returned": 486,
+      "kept": 432,
+      "kept_companies": 77,
+      "dropped": {
+        "currency GBP": 17,
+        "currency AUD": 4,
+        "currency EUR": 10,
+        "currency CAD": 6,
+        "currency SGD": 6,
+        "currency MXN": 2,
+        "currency SAR": 2,
+        "currency AED": 2,
+        "currency INR": 1,
+        "currency SEK": 1,
+        "currency JPY": 3
+      },
+      "p25": 160000,
+      "median": 197500,
+      "p75": 270000
+    },
+    "sales-founding": {
+      "params": {
+        "fn": "sales",
+        "founding": "1"
+      },
+      "api_total": 24,
+      "returned": 24,
+      "kept": 18,
+      "kept_companies": 10,
+      "dropped": {
+        "currency EUR": 1,
+        "currency CAD": 3,
+        "currency SGD": 2
+      },
+      "p25": 208125,
+      "median": 237500,
+      "p75": 318262.5
+    },
+    "product": {
+      "params": {
+        "fn": "product"
+      },
+      "api_total": 175,
+      "returned": 175,
+      "kept": 173,
+      "kept_companies": 66,
+      "dropped": {
+        "currency GBP": 1,
+        "currency EUR": 1
+      },
+      "p25": 200250,
+      "median": 226800,
+      "p75": 261000
+    },
+    "operations": {
+      "params": {
+        "fn": "operations"
+      },
+      "api_total": 362,
+      "returned": 362,
+      "kept": 348,
+      "kept_companies": 70,
+      "dropped": {
+        "currency GBP": 3,
+        "currency EUR": 7,
+        "currency SAR": 1,
+        "currency CAD": 2,
+        "currency SEK": 1
+      },
+      "p25": 126375,
+      "median": 155000,
+      "p75": 190200
+    },
+    "design": {
+      "params": {
+        "fn": "design"
+      },
+      "api_total": 114,
+      "returned": 114,
+      "kept": 111,
+      "kept_companies": 49,
+      "dropped": {
+        "currency CAD": 3
+      },
+      "p25": 181250,
+      "median": 202500,
+      "p75": 226250
+    },
+    "business_development": {
+      "params": {
+        "fn": "business_development"
+      },
+      "api_total": 100,
+      "returned": 100,
+      "kept": 98,
+      "kept_companies": 45,
+      "dropped": {
+        "currency SGD": 1,
+        "currency GBP": 1
+      },
+      "p25": 148750,
+      "median": 198000,
+      "p75": 250000
+    },
+    "operations-bizops": {
+      "params": {
+        "fn": "operations",
+        "spec": "bizops"
+      },
+      "api_total": 12,
+      "returned": 12,
+      "kept": 12,
+      "kept_companies": 11,
+      "dropped": {},
+      "p25": 121020,
+      "median": 154362.5,
+      "p75": 200875
+    },
+    "operations-bizops-cos-founders": {
+      "params": {
+        "fn": "operations",
+        "spec": "bizops,chief_of_staff,founders_office_generalist"
+      },
+      "api_total": 27,
+      "returned": 27,
+      "kept": 26,
+      "kept_companies": 23,
+      "dropped": {
+        "currency EUR": 1
+      },
+      "p25": 133125,
+      "median": 150612.5,
+      "p75": 203625
+    },
+    "q-bizops": {
+      "params": {
+        "q": "bizops"
+      },
+      "api_total": 2,
+      "returned": 2,
+      "kept": 2,
+      "kept_companies": 1,
+      "dropped": {},
+      "p25": 160118.75,
+      "median": 169012.5,
+      "p75": 177906.25
+    },
+    "q-business-operations": {
+      "params": {
+        "q": "business operations"
+      },
+      "api_total": 43,
+      "returned": 43,
+      "kept": 43,
+      "kept_companies": 20,
+      "dropped": {},
+      "p25": 152006.25,
+      "median": 180500,
+      "p75": 206250
+    },
+    "q-strategy-and-operations": {
+      "params": {
+        "q": "strategy and operations"
+      },
+      "api_total": 5,
+      "returned": 5,
+      "kept": 5,
+      "kept_companies": 2,
+      "dropped": {},
+      "p25": 190000,
+      "median": 200000,
+      "p75": 205000
+    },
+    "q-chief-of-staff": {
+      "params": {
+        "q": "chief of staff"
+      },
+      "api_total": 6,
+      "returned": 6,
+      "kept": 6,
+      "kept_companies": 6,
+      "dropped": {},
+      "p25": 156250,
+      "median": 202500,
+      "p75": 245000
+    },
+    "q-forward-deployed": {
+      "params": {
+        "q": "forward deployed"
+      },
+      "api_total": 68,
+      "returned": 68,
+      "kept": 64,
+      "kept_companies": 36,
+      "dropped": {
+        "currency GBP": 2,
+        "currency SGD": 1,
+        "currency EUR": 1
+      },
+      "p25": 170000,
+      "median": 200000,
+      "p75": 242500
+    },
+    "q-product-engineer": {
+      "params": {
+        "q": "product engineer"
+      },
+      "api_total": 160,
+      "returned": 160,
+      "kept": 160,
+      "kept_companies": 63,
+      "dropped": {},
+      "p25": 175000,
+      "median": 210478.25,
+      "p75": 251125
+    }
+  },
+  "p7": {
+    "total": 211,
+    "lvl": {
+      "mid": 110,
+      "senior": 50,
+      "staff_principal": 25,
+      "intern": 5,
+      "lead_manager": 3,
+      "vp": 2,
+      "founder": 1,
+      "director": 1
+    },
+    "lvlUnspecified": 14,
+    "student": 5,
+    "junior": 0,
+    "stage": {
+      "seed": 119,
+      "series_a": 90,
+      "series_b": 1
+    },
+    "stageUnspecified": 1,
+    "early": 210,
+    "workplace": {
+      "remote": 43,
+      "onsite": 110,
+      "hybrid": 36
+    },
+    "spec": [],
+    "compAvailable": 53,
+    "founding": 41,
+    "portfolio": {
+      "speedrun": 211
+    },
+    "fn": {
+      "engineering": 101,
+      "marketing": 15,
+      "customer": 14,
+      "design": 13,
+      "product": 9,
+      "sales": 6,
+      "operations": 6,
+      "other": 4,
+      "hardware_manufacturing": 4,
+      "business_development": 4,
+      "research": 3,
+      "people": 3,
+      "growth": 3,
+      "data": 3,
+      "finance": 2,
+      "strategy": 1
+    },
+    "fnUnspecified": 20
+  },
+  "fetched_from": "2026-11-13T10:40:24.194Z",
+  "fetched_to": "2026-11-13T10:47:26.607Z",
+  "calls_this_run": 0,
+  "rate_limited_responses_this_run": 0
+}

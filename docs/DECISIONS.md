@@ -19,3 +19,6 @@ Running log. Newest at the bottom. Format: date, decision, why, alternatives con
 | 2026-11-13 | Resources section ships as a TODO; only Edison adds links | Edison's instruction | Claude-suggested resources |
 | 2026-11-13 | No outreach to the speedrun team; application form only | Edison's instruction | Emailing the developer contact |
 | 2026-11-13 | Reference PDF is gitignored | It is speedrun's material and the repo is public | Committing it |
+| 2026-11-13 | Probe script paces calls 2.5 s apart, reuses responses already on disk and backs off on 429 | A burst of about 17 calls at 300 ms spacing was rate-limited by Cloudflare (error 1015) | Parallel or closely spaced calls |
+| 2026-11-13 | Job detail responses are saved to `fixtures/local/`, which is gitignored; only description-free summaries go in `fixtures/probe/` | Detail responses hold description text and the repo is public; the source asks that listings not be re-hosted | Committing raw detail responses as fixtures |
+| 2026-11-13 | Restored the starter `.gitignore` rules (including `docs/reference/*`) and `.env.example` | The repo's `.gitignore` was a generic Node template that did not ignore the reference PDFs, and `.env.example` was missing; both were left behind in the unzipped starter folder | Leaving the reference folder unprotected |

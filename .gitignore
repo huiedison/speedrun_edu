@@ -147,3 +147,15 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# --- speedrun_edu (restored from the starter .gitignore) ---
+next-env.d.ts
+.vercel/
+.DS_Store
+
+# speedrun's reference material stays local; do not redistribute it
+docs/reference/*
+!docs/reference/.gitkeep
+
+# job detail responses hold description text; never re-host listing text
+fixtures/local/
